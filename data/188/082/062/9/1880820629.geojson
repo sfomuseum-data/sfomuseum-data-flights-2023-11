@@ -2,10 +2,12 @@
   "id": 1880820629,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-01",
-    "date:inception_upper": "2023-11-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-01",
+    "date:cessation_lower": "2023-11-02",
+    "date:cessation_upper": "2023-11-02",
+    "date:inception_lower": "2023-11-02",
+    "date:inception_upper": "2023-11-02",
+    "edtf:cessation": "2023-11-01T17:05:10-07:00",
+    "edtf:inception": "2023-11-02T00:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "QTR",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231101-A-QTR-2170",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N587AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "66868965"
+    },
     "wof:country": "US",
     "wof:created": 1698941160,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880820629,
     "wof:involves": [
+      1159289871,
       102527513,
       102534365,
       1159283813,
       1763588149,
       1159286153
     ],
-    "wof:lastmodified": 1698941160,
+    "wof:lastmodified": 1698942646,
     "wof:name": "AS41 (JFK-SFO)",
     "wof:parent_id": 1763588149,
     "wof:placetype": "custom",

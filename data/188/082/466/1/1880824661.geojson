@@ -2,10 +2,12 @@
   "id": 1880824661,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-01",
-    "date:inception_upper": "2023-11-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-01",
+    "date:cessation_lower": "2023-11-02",
+    "date:cessation_upper": "2023-11-02",
+    "date:inception_lower": "2023-11-02",
+    "date:inception_upper": "2023-11-02",
+    "edtf:cessation": "2023-11-02T10:55:47Z",
+    "edtf:inception": "2023-11-02T05:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:base_flight_id": "20231101-D-KAL-6732",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N523DE",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "66882824",
+      "swim:gufi": "KO17434500"
+    },
     "wof:country": "US",
     "wof:created": 1698942128,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -86,13 +100,14 @@
     ],
     "wof:id": 1880824661,
     "wof:involves": [
+      1159284625,
+      1377564297,
       102530741,
       102527513,
       1159284261,
-      1763588239,
-      1159284625
+      1763588239
     ],
-    "wof:lastmodified": 1698942128,
+    "wof:lastmodified": 1698942680,
     "wof:name": "DL475 (SFO-BOS)",
     "wof:parent_id": 1763588239,
     "wof:placetype": "custom",

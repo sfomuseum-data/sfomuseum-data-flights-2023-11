@@ -2,10 +2,12 @@
   "id": 1880824219,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-01",
+    "date:cessation_upper": "2023-11-01",
     "date:inception_lower": "2023-11-01",
     "date:inception_upper": "2023-11-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-01",
+    "edtf:cessation": "2023-11-01T20:05:07Z",
+    "edtf:inception": "2023-11-01T14:55:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:base_flight_id": "20231101-D-AAL-7518",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N536AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -90,9 +100,10 @@
       102527513,
       1159283813,
       1763588139,
-      1159283849
+      1159283849,
+      1159289871
     ],
-    "wof:lastmodified": 1698942029,
+    "wof:lastmodified": 1698942660,
     "wof:name": "AS356 (SFO-BOS)",
     "wof:parent_id": 1763588139,
     "wof:placetype": "custom",
