@@ -2,10 +2,12 @@
   "id": 1880834001,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-02",
+    "date:cessation_upper": "2023-11-02",
     "date:inception_lower": "2023-11-02",
     "date:inception_upper": "2023-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-02",
+    "edtf:cessation": "2023-11-02T21:26:00Z",
+    "edtf:inception": "2023-11-02T19:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20231102-D-ANZ-9403",
@@ -53,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67044546",
+      "swim:gufi": "KO59301500"
+    },
     "wof:country": "US",
     "wof:created": 1699029046,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -90,9 +98,10 @@
       102527513,
       1159285413,
       1763588289,
-      1159283697
+      1159283697,
+      1159292085
     ],
-    "wof:lastmodified": 1699029046,
+    "wof:lastmodified": 1699029291,
     "wof:name": "UA1807 (SFO-SEA)",
     "wof:parent_id": 1763588289,
     "wof:placetype": "custom",

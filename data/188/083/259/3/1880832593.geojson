@@ -2,10 +2,12 @@
   "id": 1880832593,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-03",
+    "date:cessation_upper": "2023-11-03",
     "date:inception_lower": "2023-11-02",
     "date:inception_upper": "2023-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-02",
+    "edtf:cessation": "2023-11-03T00:58:51Z",
+    "edtf:inception": "2023-11-02T20:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20231102-D-KAL-7234",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N706TW",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO69061500"
+    },
     "wof:country": "US",
     "wof:created": 1699028686,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -90,9 +103,10 @@
       102527513,
       1159284261,
       1763588239,
-      1159284625
+      1159284625,
+      1159289939
     ],
-    "wof:lastmodified": 1699028686,
+    "wof:lastmodified": 1699029284,
     "wof:name": "DL806 (SFO-JFK)",
     "wof:parent_id": 1763588239,
     "wof:placetype": "custom",

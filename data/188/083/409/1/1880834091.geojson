@@ -2,10 +2,12 @@
   "id": 1880834091,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-02",
+    "date:cessation_upper": "2023-11-02",
     "date:inception_lower": "2023-11-02",
     "date:inception_upper": "2023-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-02",
+    "edtf:cessation": "2023-11-02T07:02:00Z",
+    "edtf:inception": "2023-11-02T06:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:base_flight_id": "20231102-D-DLH-9212",
@@ -53,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "66983638",
+      "swim:gufi": "KO12021500"
+    },
     "wof:country": "US",
     "wof:created": 1699029068,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -86,13 +94,14 @@
     ],
     "wof:id": 1880834091,
     "wof:involves": [
+      1763588311,
+      1159286015,
+      1528104577,
       102527209,
       102527513,
-      1159285413,
-      1763588311,
-      1159286015
+      1159285413
     ],
-    "wof:lastmodified": 1699029068,
+    "wof:lastmodified": 1699029292,
     "wof:name": "UA2366 (SFO-LAS)",
     "wof:parent_id": 1763588311,
     "wof:placetype": "custom",

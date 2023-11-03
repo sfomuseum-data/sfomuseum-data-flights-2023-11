@@ -2,10 +2,12 @@
   "id": 1880832513,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-03",
+    "date:cessation_upper": "2023-11-03",
     "date:inception_lower": "2023-11-02",
     "date:inception_upper": "2023-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-02",
+    "edtf:cessation": "2023-11-03T01:35:00Z",
+    "edtf:inception": "2023-11-02T23:59:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "BCS1",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1528104583,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20231102-D-KLM-5740",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +61,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67069039",
+      "swim:gufi": "KO82261500"
+    },
     "wof:country": "US",
     "wof:created": 1699028664,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -86,13 +98,14 @@
     ],
     "wof:id": 1880832513,
     "wof:involves": [
+      1763588245,
+      1159284613,
+      1528104583,
       102533269,
       102527513,
-      1159284261,
-      1763588245,
-      1159284613
+      1159284261
     ],
-    "wof:lastmodified": 1699028664,
+    "wof:lastmodified": 1699029280,
     "wof:name": "DL2250 (SFO-SEA)",
     "wof:parent_id": 1763588245,
     "wof:placetype": "custom",

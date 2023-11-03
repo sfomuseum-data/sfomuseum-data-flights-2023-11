@@ -2,10 +2,12 @@
   "id": 1880834367,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-02",
-    "date:inception_upper": "2023-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-02",
+    "date:cessation_lower": "2023-11-03",
+    "date:cessation_upper": "2023-11-03",
+    "date:inception_lower": "2023-11-03",
+    "date:inception_upper": "2023-11-03",
+    "edtf:cessation": "2023-11-03T18:20:52Z",
+    "edtf:inception": "2023-11-03T05:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2023-11-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 1.8415309999999998,
     "geom:longitude": 14.401222499999996,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102557783,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2331U",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "66981345",
+      "swim:gufi": "KO00266601"
+    },
     "wof:country": "US",
     "wof:created": 1699029142,
     "wof:geomhash": "148b50b9c1c42c575a8cdcaf5b598e8f",
@@ -84,9 +98,10 @@
       102557783,
       102527513,
       1159285413,
-      1763588465
+      1763588465,
+      1159289993
     ],
-    "wof:lastmodified": 1699029142,
+    "wof:lastmodified": 1699029294,
     "wof:name": "UA829 (SFO-SYD)",
     "wof:parent_id": 1763588465,
     "wof:placetype": "custom",

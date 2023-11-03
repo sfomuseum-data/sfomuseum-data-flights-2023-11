@@ -2,10 +2,12 @@
   "id": 1880832077,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-02",
+    "date:cessation_upper": "2023-11-02",
     "date:inception_lower": "2023-11-02",
     "date:inception_upper": "2023-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-02",
+    "edtf:cessation": "2023-11-02T15:45:45Z",
+    "edtf:inception": "2023-11-02T00:12:02-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20231102-D-AAL-7590",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N526AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -90,9 +100,10 @@
       102527513,
       1159283813,
       1763588159,
-      1159283849
+      1159283849,
+      1159289871
     ],
-    "wof:lastmodified": 1699028543,
+    "wof:lastmodified": 1699029276,
     "wof:name": "AS1145 (SFO-SEA)",
     "wof:parent_id": 1763588159,
     "wof:placetype": "custom",

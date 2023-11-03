@@ -2,10 +2,12 @@
   "id": 1880834005,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-03",
+    "date:cessation_upper": "2023-11-03",
     "date:inception_lower": "2023-11-02",
     "date:inception_upper": "2023-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-02",
+    "edtf:cessation": "2023-11-03T00:24:00Z",
+    "edtf:inception": "2023-11-02T22:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.617321,
     "lbl:longitude": -122.389477,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:base_flight_id": "20231102-D-ANA-7320",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N29961",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO64251500"
+    },
     "wof:country": "US",
     "wof:created": 1699029047,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880834005,
     "wof:involves": [
+      1763588437,
+      1159283875,
+      1159293215,
       102531189,
       102527513,
-      1159285413,
-      1763588437,
-      1159283875
+      1159285413
     ],
-    "wof:lastmodified": 1699029047,
+    "wof:lastmodified": 1699029291,
     "wof:name": "UA1823 (SFO-DEN)",
     "wof:parent_id": 1763588437,
     "wof:placetype": "custom",
