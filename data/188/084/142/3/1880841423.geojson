@@ -2,10 +2,12 @@
   "id": 1880841423,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-04",
+    "date:cessation_upper": "2023-11-04",
     "date:inception_lower": "2023-11-03",
     "date:inception_upper": "2023-11-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-03",
+    "edtf:cessation": "2023-11-04T01:48:00Z",
+    "edtf:inception": "2023-11-03T23:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-03",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67179503"
+    },
     "wof:country": "US",
     "wof:created": 1699115207,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -86,7 +91,7 @@
       1159285591,
       1763588191
     ],
-    "wof:lastmodified": 1699115207,
+    "wof:lastmodified": 1699115495,
     "wof:name": "WN2410 (SFO-DEN)",
     "wof:parent_id": 1763588191,
     "wof:placetype": "custom",
