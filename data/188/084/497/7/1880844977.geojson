@@ -2,10 +2,12 @@
   "id": 1880844977,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-05",
+    "date:cessation_upper": "2023-11-05",
     "date:inception_lower": "2023-11-04",
     "date:inception_upper": "2023-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-04",
+    "edtf:cessation": "2023-11-05T05:14:52Z",
+    "edtf:inception": "2023-11-04T17:02:27Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "PR",
     "flysfo:date": "2023-11-04",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "67411786"
+    },
     "wof:country": "US",
     "wof:created": 1699200604,
     "wof:geomhash": "5a4fd58c6aeb5f6f6368af3561d0b192",
@@ -50,7 +55,7 @@
       1159285015,
       -1
     ],
-    "wof:lastmodified": 1699200604,
+    "wof:lastmodified": 1699201764,
     "wof:name": "PR104 (MNL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

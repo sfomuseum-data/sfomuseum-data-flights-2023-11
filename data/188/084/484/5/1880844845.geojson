@@ -2,10 +2,12 @@
   "id": 1880844845,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-04",
+    "date:cessation_upper": "2023-11-04",
     "date:inception_lower": "2023-11-04",
     "date:inception_upper": "2023-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-04",
+    "edtf:cessation": "2023-11-04T09:10:00Z",
+    "edtf:inception": "2023-11-04T03:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67192100"
+    },
     "wof:country": "US",
     "wof:created": 1699200574,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -92,7 +97,7 @@
       1763588483,
       1159285081
     ],
-    "wof:lastmodified": 1699200574,
+    "wof:lastmodified": 1699201763,
     "wof:name": "B62615 (JFK-SFO)",
     "wof:parent_id": 1763588483,
     "wof:placetype": "custom",

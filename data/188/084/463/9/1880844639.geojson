@@ -2,10 +2,12 @@
   "id": 1880844639,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-04",
+    "date:cessation_upper": "2023-11-04",
     "date:inception_lower": "2023-11-04",
     "date:inception_upper": "2023-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-04",
+    "edtf:cessation": "2023-11-04T16:13:05Z",
+    "edtf:inception": "2023-11-04T11:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2023-11-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "F9",
+    "icao:aircraft": "A320",
     "icao:airline": "FFT",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525635,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,10 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67211188",
+      "swim:gufi": "KC37879700"
+    },
     "wof:country": "US",
     "wof:created": 1699200524,
     "wof:geomhash": "a23858bb4e93419105e139a22bd92749",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1880844639,
     "wof:involves": [
+      1159292085,
       102527513,
       102525635,
       1159284401,
       1763588427
     ],
-    "wof:lastmodified": 1699200524,
+    "wof:lastmodified": 1699201763,
     "wof:name": "F92790 (DTW-SFO)",
     "wof:parent_id": 1763588427,
     "wof:placetype": "custom",

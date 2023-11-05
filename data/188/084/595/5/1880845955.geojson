@@ -2,10 +2,12 @@
   "id": 1880845955,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-04",
+    "date:cessation_upper": "2023-11-04",
     "date:inception_lower": "2023-11-04",
     "date:inception_upper": "2023-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-04",
+    "edtf:cessation": "2023-11-04T13:01:51-07:00",
+    "edtf:inception": "2023-11-04T23:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.8106995,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231104-A-ACA-5510",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N460UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67289124",
+      "swim:gufi": "KL05442100"
+    },
     "wof:country": "US",
     "wof:created": 1699200837,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -86,13 +100,14 @@
     ],
     "wof:id": 1880845955,
     "wof:involves": [
-      102527513,
       102536481,
       1159285413,
       1763588459,
-      1159283597
+      1159283597,
+      1159292085,
+      102527513
     ],
-    "wof:lastmodified": 1699200837,
+    "wof:lastmodified": 1699201769,
     "wof:name": "UA705 (PVR-SFO)",
     "wof:parent_id": 1763588459,
     "wof:placetype": "custom",

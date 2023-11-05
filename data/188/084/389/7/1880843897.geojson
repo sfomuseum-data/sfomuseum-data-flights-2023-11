@@ -2,10 +2,12 @@
   "id": 1880843897,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-04",
+    "date:cessation_upper": "2023-11-04",
     "date:inception_lower": "2023-11-04",
     "date:inception_upper": "2023-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-04",
+    "edtf:cessation": "2023-11-04T10:51:24-07:00",
+    "edtf:inception": "2023-11-04T20:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2023-11-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.139362,
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536481,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N534AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67269191"
+    },
     "wof:country": "US",
     "wof:created": 1699200338,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1880843897,
     "wof:involves": [
+      1159289871,
       102527513,
       102536481,
       1159283813,
       1763588427
     ],
-    "wof:lastmodified": 1699200338,
+    "wof:lastmodified": 1699201760,
     "wof:name": "AS1370 (PVR-SFO)",
     "wof:parent_id": 1763588427,
     "wof:placetype": "custom",

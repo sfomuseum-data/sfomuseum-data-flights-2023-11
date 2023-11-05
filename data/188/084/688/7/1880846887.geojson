@@ -2,10 +2,12 @@
   "id": 1880846887,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-05",
+    "date:cessation_upper": "2023-11-05",
     "date:inception_lower": "2023-11-04",
     "date:inception_upper": "2023-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-04",
+    "edtf:cessation": "2023-11-05T01:36:20Z",
+    "edtf:inception": "2023-11-04T21:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AM",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "AM",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "AMX",
     "icao:base_airline": "DAL",
     "lbl:latitude": 37.613288,
     "lbl:longitude": -122.389396,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283539,
     "sfomuseum:arrival_id": 102536579,
     "sfomuseum:base_flight_id": "20231104-D-DAL-8019",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "XAAMV",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67276236"
+    },
     "wof:country": "US",
     "wof:created": 1699201059,
     "wof:geomhash": "01999c4327be8e36df88ffd5cda77111",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880846887,
     "wof:involves": [
+      1159289871,
       102536579,
       102527513,
       1159283539,
       1763588409,
       1159284261
     ],
-    "wof:lastmodified": 1699201059,
+    "wof:lastmodified": 1699201772,
     "wof:name": "AM669 (SFO-MEX)",
     "wof:parent_id": 1763588409,
     "wof:placetype": "custom",
