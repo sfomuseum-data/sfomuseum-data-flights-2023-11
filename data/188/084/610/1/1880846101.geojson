@@ -1,0 +1,75 @@
+{
+  "id": 1880846101,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2023-11-04",
+    "date:inception_upper": "2023-11-04",
+    "edtf:cessation": "",
+    "edtf:inception": "2023-11-04",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "VS",
+    "flysfo:base_airline": "",
+    "flysfo:base_flight_number": "8402",
+    "flysfo:date": "2023-11-04",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "VS6851",
+    "flysfo:gate": "",
+    "flysfo:journey": "AMS-SFO",
+    "flysfo:scheduled_timestamp": 1699128000,
+    "flysfo:timestamp": 1699128000,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,4.782907,52.314791",
+    "geom:latitude": 44.9663905,
+    "geom:longitude": -58.794018,
+    "iata:airline": "VS",
+    "iata:base_airline": "",
+    "icao:airline": "VIR",
+    "icao:base_airline": "AFR",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285483,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:base_flight_id": "20231104-A-AFR-8402",
+    "sfomuseum:departure_id": 102542801,
+    "sfomuseum:flight_id": "20231104-A-VIR-6851",
+    "sfomuseum:flight_number": [
+      "VIR6851",
+      "VS6851"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1699200870,
+    "wof:geomhash": "bfe9b4dfbd612ca8de6bd9460273f90d",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1880846101
+      }
+    ],
+    "wof:id": 1880846101,
+    "wof:involves": [
+      102527513,
+      102542801,
+      1159285483,
+      -1,
+      1159283627
+    ],
+    "wof:lastmodified": 1699200870,
+    "wof:name": "VS6851 (AMS-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2023-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    4.782907,
+    52.314791
+  ],
+  "geometry": {"coordinates":[[4.782907,52.314791],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
