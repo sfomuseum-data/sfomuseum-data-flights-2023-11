@@ -2,10 +2,12 @@
   "id": 1880857175,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-05",
+    "date:cessation_upper": "2023-11-05",
     "date:inception_lower": "2023-11-05",
     "date:inception_upper": "2023-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-05",
+    "edtf:cessation": "2023-11-05T22:29:06Z",
+    "edtf:inception": "2023-11-05T08:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 11.236410499999998,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "VOZ",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102557779,
     "sfomuseum:base_flight_id": "20231105-D-VOZ-8002",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2352U",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67329610",
+      "swim:gufi": "KO06614100"
+    },
     "wof:country": "US",
     "wof:created": 1699288306,
     "wof:geomhash": "945559894ecf54761855aac48d7d95c2",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880857175,
     "wof:involves": [
-      102557779,
       102527513,
       1159285413,
       1763588451,
-      1159285485
+      1159285485,
+      1159289993,
+      102557779
     ],
-    "wof:lastmodified": 1699288306,
+    "wof:lastmodified": 1699288451,
     "wof:name": "UA60 (SFO-MEL)",
     "wof:parent_id": 1763588451,
     "wof:placetype": "custom",

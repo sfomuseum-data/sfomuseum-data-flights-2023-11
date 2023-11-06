@@ -2,10 +2,12 @@
   "id": 1880850169,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-05",
+    "date:cessation_upper": "2023-11-05",
     "date:inception_lower": "2023-11-05",
     "date:inception_upper": "2023-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-05",
+    "edtf:cessation": "2023-11-05T09:27:50-08:00",
+    "edtf:inception": "2023-11-05T22:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231105-A-BAW-4359",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N519UW",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67405356",
+      "swim:gufi": "KF73697100"
+    },
     "wof:country": "US",
     "wof:created": 1699286492,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -86,13 +100,14 @@
     ],
     "wof:id": 1880850169,
     "wof:involves": [
+      1763588209,
+      1159284021,
+      1159289411,
       102527513,
       102528541,
-      1159283849,
-      1763588209,
-      1159284021
+      1159283849
     ],
-    "wof:lastmodified": 1699286492,
+    "wof:lastmodified": 1699288452,
     "wof:name": "AA2997 (DFW-SFO)",
     "wof:parent_id": 1763588209,
     "wof:placetype": "custom",

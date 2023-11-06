@@ -2,10 +2,12 @@
   "id": 1880855951,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-05",
-    "date:inception_upper": "2023-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-05",
+    "date:cessation_lower": "2023-11-06",
+    "date:cessation_upper": "2023-11-06",
+    "date:inception_lower": "2023-11-06",
+    "date:inception_upper": "2023-11-06",
+    "edtf:cessation": "2023-11-06T04:52:26Z",
+    "edtf:inception": "2023-11-06T03:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "B6",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "JBU",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20231105-D-HAL-2259",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N594JB",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO03501200"
+    },
     "wof:country": "US",
     "wof:created": 1699287999,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -86,13 +98,14 @@
     ],
     "wof:id": 1880855951,
     "wof:involves": [
+      1159284489,
+      1159292085,
       102533795,
       102527513,
       1159284583,
-      1763588181,
-      1159284489
+      1763588181
     ],
-    "wof:lastmodified": 1699287999,
+    "wof:lastmodified": 1699288461,
     "wof:name": "B6535 (SFO-LAX)",
     "wof:parent_id": 1763588181,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1880855669,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-05",
+    "date:cessation_upper": "2023-11-05",
     "date:inception_lower": "2023-11-05",
     "date:inception_upper": "2023-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-05",
+    "edtf:cessation": "2023-11-05T20:39:23Z",
+    "edtf:inception": "2023-11-05T07:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "BR",
     "flysfo:date": "2023-11-05",
@@ -48,6 +50,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67329446"
+    },
     "wof:country": "US",
     "wof:created": 1699287927,
     "wof:geomhash": "ec4a8fe4d0e09d37ae50bf109072b003",
@@ -86,7 +91,7 @@
       1159284349,
       1763588401
     ],
-    "wof:lastmodified": 1699287927,
+    "wof:lastmodified": 1699288445,
     "wof:name": "BR1017 (SFO-TPE)",
     "wof:parent_id": 1763588401,
     "wof:placetype": "custom",
