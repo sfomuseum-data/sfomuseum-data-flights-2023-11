@@ -2,10 +2,12 @@
   "id": 1880859299,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-06",
-    "date:inception_upper": "2023-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-06",
+    "date:cessation_lower": "2023-11-06",
+    "date:cessation_upper": "2023-11-06",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2023-11-06T15:15:57-08:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "icao:base_airline": "UAL",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231106-A-UAL-8174",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGEPF",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -86,13 +94,14 @@
     ],
     "wof:id": 1880859299,
     "wof:involves": [
-      102527513,
       102555307,
       1159283597,
       1763588153,
-      1159285413
+      1159285413,
+      1528104575,
+      102527513
     ],
-    "wof:lastmodified": 1699373010,
+    "wof:lastmodified": 1699374877,
     "wof:name": "AC570 (YVR-SFO)",
     "wof:parent_id": 1763588153,
     "wof:placetype": "custom",
