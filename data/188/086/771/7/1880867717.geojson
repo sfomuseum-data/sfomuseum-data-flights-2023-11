@@ -2,10 +2,12 @@
   "id": 1880867717,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-07",
-    "date:inception_upper": "2023-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-07",
+    "date:cessation_lower": "2023-11-07",
+    "date:cessation_upper": "2023-11-07",
+    "date:inception_lower": "2023-11-08",
+    "date:inception_upper": "2023-11-08",
+    "edtf:cessation": "2023-11-07T15:48:48-08:00",
+    "edtf:inception": "2023-11-08T01:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "QTR",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231107-A-QTR-2170",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N461AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67531473"
+    },
     "wof:country": "US",
     "wof:created": 1699459592,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880867717,
     "wof:involves": [
+      1159286153,
+      1377564285,
       102527513,
       102534365,
       1159283813,
-      1763588149,
-      1159286153
+      1763588149
     ],
-    "wof:lastmodified": 1699459592,
+    "wof:lastmodified": 1699461061,
     "wof:name": "AS41 (JFK-SFO)",
     "wof:parent_id": 1763588149,
     "wof:placetype": "custom",

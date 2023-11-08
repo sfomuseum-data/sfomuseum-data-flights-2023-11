@@ -2,10 +2,12 @@
   "id": 1880866583,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-07",
+    "date:cessation_upper": "2023-11-07",
     "date:inception_lower": "2023-11-07",
     "date:inception_upper": "2023-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-07",
+    "edtf:cessation": "2023-11-07T09:20:44-08:00",
+    "edtf:inception": "2023-11-07T20:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.65686,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "QFA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231107-A-QFA-4138",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N545UW",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67595014",
+      "swim:gufi": "KT62721300"
+    },
     "wof:country": "US",
     "wof:created": 1699459294,
     "wof:geomhash": "b96563c9986e04a3607ac552f48e111b",
@@ -90,9 +104,10 @@
       102528659,
       1159283849,
       1763588217,
-      1159285043
+      1159285043,
+      1159289411
     ],
-    "wof:lastmodified": 1699459294,
+    "wof:lastmodified": 1699461052,
     "wof:name": "AA2411 (CLT-SFO)",
     "wof:parent_id": 1763588217,
     "wof:placetype": "custom",

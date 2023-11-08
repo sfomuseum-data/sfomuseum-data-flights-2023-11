@@ -2,10 +2,12 @@
   "id": 1880873063,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-07",
+    "date:cessation_upper": "2023-11-07",
     "date:inception_lower": "2023-11-07",
     "date:inception_upper": "2023-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-07",
+    "edtf:cessation": "2023-11-07T08:14:21Z",
+    "edtf:inception": "2023-11-07T07:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67545916"
+    },
     "wof:country": "US",
     "wof:created": 1699460880,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -92,7 +97,7 @@
       1763588285,
       1159286015
     ],
-    "wof:lastmodified": 1699460880,
+    "wof:lastmodified": 1699461084,
     "wof:name": "UA2142 (SFO-EUG)",
     "wof:parent_id": 1763588285,
     "wof:placetype": "custom",
