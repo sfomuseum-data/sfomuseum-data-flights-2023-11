@@ -2,10 +2,12 @@
   "id": 1880881093,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-09",
+    "date:cessation_upper": "2023-11-09",
     "date:inception_lower": "2023-11-08",
     "date:inception_upper": "2023-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-08",
+    "edtf:cessation": "2023-11-09T06:11:00Z",
+    "edtf:inception": "2023-11-08T13:08:13-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533575,
     "sfomuseum:base_flight_id": "20231108-D-ACA-4122",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N890UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO06265500"
+    },
     "wof:country": "US",
     "wof:created": 1699547353,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880881093,
     "wof:involves": [
+      1159289407,
       102533575,
       102527513,
       1159285413,
       1763588291,
       1159283597
     ],
-    "wof:lastmodified": 1699547353,
+    "wof:lastmodified": 1699547572,
     "wof:name": "UA1632 (SFO-ONT)",
     "wof:parent_id": 1763588291,
     "wof:placetype": "custom",

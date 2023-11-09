@@ -2,10 +2,12 @@
   "id": 1880879435,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-08",
+    "date:cessation_upper": "2023-11-08",
     "date:inception_lower": "2023-11-08",
     "date:inception_upper": "2023-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-08",
+    "edtf:cessation": "2023-11-08T23:56:36Z",
+    "edtf:inception": "2023-11-08T19:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67699638"
+    },
     "wof:country": "US",
     "wof:created": 1699546948,
     "wof:geomhash": "8c8f659fbae3cc58419f360e0abfbe56",
@@ -92,7 +97,7 @@
       1763588141,
       1159283849
     ],
-    "wof:lastmodified": 1699546948,
+    "wof:lastmodified": 1699547585,
     "wof:name": "AS879 (SFO-OGG)",
     "wof:parent_id": 1763588141,
     "wof:placetype": "custom",
