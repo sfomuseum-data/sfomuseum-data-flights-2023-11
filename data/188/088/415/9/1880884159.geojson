@@ -2,10 +2,12 @@
   "id": 1880884159,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-09",
-    "date:inception_upper": "2023-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-09",
+    "date:cessation_lower": "2023-11-09",
+    "date:cessation_upper": "2023-11-09",
+    "date:inception_lower": "2023-11-10",
+    "date:inception_upper": "2023-11-10",
+    "edtf:cessation": "2023-11-09T14:43:23-08:00",
+    "edtf:inception": "2023-11-10T01:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231109-A-ANZ-4737",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGJYI",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67733639",
+      "swim:gufi": "KP06578600"
+    },
     "wof:country": "US",
     "wof:created": 1699632219,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
@@ -86,13 +100,14 @@
     ],
     "wof:id": 1880884159,
     "wof:involves": [
+      1813375783,
       102527513,
       102555091,
       1159283597,
       1763588153,
       1159283697
     ],
-    "wof:lastmodified": 1699632219,
+    "wof:lastmodified": 1699634079,
     "wof:name": "AC745 (YYZ-SFO)",
     "wof:parent_id": 1763588153,
     "wof:placetype": "custom",

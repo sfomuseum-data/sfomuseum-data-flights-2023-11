@@ -2,10 +2,12 @@
   "id": 1880889155,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2023-11-09",
     "date:inception_upper": "2023-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-09",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2023-11-09T14:33:58-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20231109-D-AMX-3933",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N707TW",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -86,13 +95,14 @@
     ],
     "wof:id": 1880889155,
     "wof:involves": [
+      1763588239,
+      1159283539,
+      1159289939,
       102534365,
       102527513,
-      1159284261,
-      1763588239,
-      1159283539
+      1159284261
     ],
-    "wof:lastmodified": 1699633491,
+    "wof:lastmodified": 1699634097,
     "wof:name": "DL742 (SFO-JFK)",
     "wof:parent_id": 1763588239,
     "wof:placetype": "custom",

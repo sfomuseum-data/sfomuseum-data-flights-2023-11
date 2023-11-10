@@ -2,10 +2,12 @@
   "id": 1880890703,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-09",
+    "date:cessation_upper": "2023-11-09",
     "date:inception_lower": "2023-11-09",
     "date:inception_upper": "2023-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-09",
+    "edtf:cessation": "2023-11-09T22:48:45Z",
+    "edtf:inception": "2023-11-09T21:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:base_flight_id": "20231109-D-ANA-7314",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N69830",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO62044500"
+    },
     "wof:country": "US",
     "wof:created": 1699633871,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880890703,
     "wof:involves": [
+      1763588285,
+      1159283875,
+      1377564285,
       102527209,
       102527513,
-      1159285413,
-      1763588285,
-      1159283875
+      1159285413
     ],
-    "wof:lastmodified": 1699633871,
+    "wof:lastmodified": 1699634082,
     "wof:name": "UA2688 (SFO-LAS)",
     "wof:parent_id": 1763588285,
     "wof:placetype": "custom",
