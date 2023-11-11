@@ -2,10 +2,12 @@
   "id": 1880894575,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-10",
+    "date:cessation_upper": "2023-11-10",
     "date:inception_lower": "2023-11-10",
     "date:inception_upper": "2023-11-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-10",
+    "edtf:cessation": "2023-11-10T23:39:31Z",
+    "edtf:inception": "2023-11-10T19:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231110-A-ACA-5269",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +61,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67932133",
+      "swim:gufi": "KG58597600"
+    },
     "wof:country": "US",
     "wof:created": 1699719234,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -86,13 +98,14 @@
     ],
     "wof:id": 1880894575,
     "wof:involves": [
-      102527513,
       102533631,
       1159285413,
       1763588311,
-      1159283597
+      1159283597,
+      1159289945,
+      102527513
     ],
-    "wof:lastmodified": 1699719234,
+    "wof:lastmodified": 1699720399,
     "wof:name": "UA1248 (ORD-SFO)",
     "wof:parent_id": 1763588311,
     "wof:placetype": "custom",

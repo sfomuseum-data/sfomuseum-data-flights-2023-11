@@ -2,10 +2,12 @@
   "id": 1880894325,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-10",
+    "date:cessation_upper": "2023-11-10",
     "date:inception_lower": "2023-11-10",
     "date:inception_upper": "2023-11-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-10",
+    "edtf:cessation": "2023-11-10T23:35:00Z",
+    "edtf:inception": "2023-11-10T22:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-10",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67953773"
+    },
     "wof:country": "US",
     "wof:created": 1699719174,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -86,7 +91,7 @@
       1159285591,
       1763588185
     ],
-    "wof:lastmodified": 1699719174,
+    "wof:lastmodified": 1699720398,
     "wof:name": "WN1446 (SAN-SFO)",
     "wof:parent_id": 1763588185,
     "wof:placetype": "custom",

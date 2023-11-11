@@ -2,10 +2,12 @@
   "id": 1880898627,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-11",
+    "date:cessation_upper": "2023-11-11",
     "date:inception_lower": "2023-11-10",
     "date:inception_upper": "2023-11-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-10",
+    "edtf:cessation": "2023-11-11T07:32:23Z",
+    "edtf:inception": "2023-11-10T06:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:base_flight_id": "20231110-D-ACA-5608",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17254",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67877553",
+      "swim:gufi": "KO15468700"
+    },
     "wof:country": "US",
     "wof:created": 1699720219,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -90,9 +104,10 @@
       102527513,
       1159285413,
       1763588351,
-      1159283597
+      1159283597,
+      1528104575
     ],
-    "wof:lastmodified": 1699720219,
+    "wof:lastmodified": 1699720415,
     "wof:name": "UA297 (SFO-SAN)",
     "wof:parent_id": 1763588351,
     "wof:placetype": "custom",

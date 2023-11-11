@@ -2,10 +2,12 @@
   "id": 1880898155,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-10",
+    "date:cessation_upper": "2023-11-10",
     "date:inception_lower": "2023-11-10",
     "date:inception_upper": "2023-11-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-10",
+    "edtf:cessation": "2023-11-10T16:28:00Z",
+    "edtf:inception": "2023-11-10T15:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-10",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "67908581"
+    },
     "wof:country": "US",
     "wof:created": 1699720105,
     "wof:geomhash": "5b5841a3ebf3c57d9843115edfb8ee6b",
@@ -86,7 +91,7 @@
       1159285591,
       1763588195
     ],
-    "wof:lastmodified": 1699720105,
+    "wof:lastmodified": 1699720412,
     "wof:name": "WN778 (SFO-BUR)",
     "wof:parent_id": 1763588195,
     "wof:placetype": "custom",

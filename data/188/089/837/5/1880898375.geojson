@@ -2,10 +2,12 @@
   "id": 1880898375,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-10",
+    "date:cessation_upper": "2023-11-10",
     "date:inception_lower": "2023-11-10",
     "date:inception_upper": "2023-11-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-10",
+    "edtf:cessation": "2023-11-10T20:37:00Z",
+    "edtf:inception": "2023-11-10T16:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2023-11-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.8087165,
     "geom:longitude": -102.62808,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532255,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N808UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO48484600"
+    },
     "wof:country": "US",
     "wof:created": 1699720159,
     "wof:geomhash": "b3e3651b522d461c555c2feff400782a",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1880898375,
     "wof:involves": [
-      102532255,
-      102527513,
       1159285413,
-      1763588337
+      1763588337,
+      1159289407,
+      102532255,
+      102527513
     ],
-    "wof:lastmodified": 1699720159,
+    "wof:lastmodified": 1699720413,
     "wof:name": "UA1263 (SFO-CMH)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",
