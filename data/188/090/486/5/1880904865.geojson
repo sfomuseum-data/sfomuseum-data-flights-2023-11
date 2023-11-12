@@ -2,10 +2,12 @@
   "id": 1880904865,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-11",
+    "date:cessation_upper": "2023-11-11",
     "date:inception_lower": "2023-11-11",
     "date:inception_upper": "2023-11-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-11",
+    "edtf:cessation": "2023-11-11T15:43:00Z",
+    "edtf:inception": "2023-11-11T11:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "HA",
     "flysfo:date": "2023-11-11",
@@ -48,6 +50,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68094066"
+    },
     "wof:country": "US",
     "wof:created": 1699806349,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -86,7 +91,7 @@
       1159284489,
       1763588419
     ],
-    "wof:lastmodified": 1699806349,
+    "wof:lastmodified": 1699806775,
     "wof:name": "HA50 (SFO-JFK)",
     "wof:parent_id": 1763588419,
     "wof:placetype": "custom",
