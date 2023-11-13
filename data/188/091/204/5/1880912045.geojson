@@ -2,10 +2,12 @@
   "id": 1880912045,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-12",
+    "date:cessation_upper": "2023-11-12",
     "date:inception_lower": "2023-11-12",
     "date:inception_upper": "2023-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-12",
+    "edtf:cessation": "2023-11-12T15:22:00Z",
+    "edtf:inception": "2023-11-12T13:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20231112-D-AFR-5861",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +61,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68108773",
+      "swim:gufi": "KO47161100"
+    },
     "wof:country": "US",
     "wof:created": 1699892648,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -86,13 +98,14 @@
     ],
     "wof:id": 1880912045,
     "wof:involves": [
-      102533269,
       102527513,
       1159284261,
       1763588249,
-      1159283627
+      1159283627,
+      1377564285,
+      102533269
     ],
-    "wof:lastmodified": 1699892648,
+    "wof:lastmodified": 1699893214,
     "wof:name": "DL2310 (SFO-SEA)",
     "wof:parent_id": 1763588249,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1880908331,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-12",
+    "date:cessation_upper": "2023-11-12",
     "date:inception_lower": "2023-11-12",
     "date:inception_upper": "2023-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-12",
+    "edtf:cessation": "2023-11-12T02:01:52-08:00",
+    "edtf:inception": "2023-11-12T16:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "BCS1",
     "icao:airline": "DAL",
     "icao:base_airline": "CSN",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1528104583,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231112-A-CSN-1259",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N110DU",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS48360100"
+    },
     "wof:country": "US",
     "wof:created": 1699891734,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880908331,
     "wof:involves": [
+      1528104583,
       102527513,
       102533269,
       1159284261,
       1763588243,
       1159284165
     ],
-    "wof:lastmodified": 1699891734,
+    "wof:lastmodified": 1699893211,
     "wof:name": "DL2888 (SEA-SFO)",
     "wof:parent_id": 1763588243,
     "wof:placetype": "custom",

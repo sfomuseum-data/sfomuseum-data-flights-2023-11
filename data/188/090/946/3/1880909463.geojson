@@ -2,10 +2,12 @@
   "id": 1880909463,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-12",
+    "date:cessation_upper": "2023-11-12",
     "date:inception_lower": "2023-11-12",
     "date:inception_upper": "2023-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-12",
+    "edtf:cessation": "2023-11-12T21:45:36Z",
+    "edtf:inception": "2023-11-12T08:27:42Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "TG",
     "flysfo:date": "2023-11-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 25.655876,
     "geom:longitude": -10.8075465,
     "iata:airline": "TG",
+    "icao:aircraft": "A359",
     "icao:airline": "THA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159285639,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102547905,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "68215012"
+    },
     "wof:country": "US",
     "wof:created": 1699892014,
     "wof:geomhash": "e5b69465f888a6a631fc4ad411655b35",
@@ -45,12 +55,12 @@
     ],
     "wof:id": 1880909463,
     "wof:involves": [
+      1377564293,
       102527513,
       102547905,
-      1159285639,
-      -1
+      1159285639
     ],
-    "wof:lastmodified": 1699892014,
+    "wof:lastmodified": 1699893220,
     "wof:name": "TG8838 (BKK-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

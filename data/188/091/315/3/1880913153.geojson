@@ -2,10 +2,12 @@
   "id": 1880913153,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-12",
+    "date:cessation_upper": "2023-11-12",
     "date:inception_lower": "2023-11-12",
     "date:inception_upper": "2023-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-12",
+    "edtf:cessation": "2023-11-12T16:32:00Z",
+    "edtf:inception": "2023-11-12T15:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-12",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68116119"
+    },
     "wof:country": "US",
     "wof:created": 1699892916,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -86,7 +91,7 @@
       1159285591,
       1763588193
     ],
-    "wof:lastmodified": 1699892916,
+    "wof:lastmodified": 1699893223,
     "wof:name": "WN2893 (SFO-LAS)",
     "wof:parent_id": 1763588193,
     "wof:placetype": "custom",

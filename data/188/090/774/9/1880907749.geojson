@@ -2,10 +2,12 @@
   "id": 1880907749,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-13",
+    "date:cessation_upper": "2023-11-13",
     "date:inception_lower": "2023-11-12",
     "date:inception_upper": "2023-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-12",
+    "edtf:cessation": "2023-11-13T03:20:46Z",
+    "edtf:inception": "2023-11-12T23:45:29Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68164997"
+    },
     "wof:country": "US",
     "wof:created": 1699891590,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -92,7 +97,7 @@
       1763588267,
       1159285043
     ],
-    "wof:lastmodified": 1699891590,
+    "wof:lastmodified": 1699893207,
     "wof:name": "AS1349 (PVR-SFO)",
     "wof:parent_id": 1763588267,
     "wof:placetype": "custom",
