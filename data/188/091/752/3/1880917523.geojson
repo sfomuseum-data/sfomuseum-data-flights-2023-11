@@ -2,10 +2,12 @@
   "id": 1880917523,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-13",
+    "date:cessation_upper": "2023-11-13",
     "date:inception_lower": "2023-11-13",
     "date:inception_upper": "2023-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-13",
+    "edtf:cessation": "2023-11-13T04:20:39Z",
+    "edtf:inception": "2023-11-13T00:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68168805"
+    },
     "wof:country": "US",
     "wof:created": 1699978477,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -92,7 +97,7 @@
       1763588343,
       1159283697
     ],
-    "wof:lastmodified": 1699978477,
+    "wof:lastmodified": 1699979601,
     "wof:name": "UA1836 (ORD-SFO)",
     "wof:parent_id": 1763588343,
     "wof:placetype": "custom",

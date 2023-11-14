@@ -2,10 +2,12 @@
   "id": 1880917647,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-13",
+    "date:cessation_upper": "2023-11-13",
     "date:inception_lower": "2023-11-13",
     "date:inception_upper": "2023-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-13",
+    "edtf:cessation": "2023-11-13T15:41:00Z",
+    "edtf:inception": "2023-11-13T14:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231113-A-ANA-7317",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N17265",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68207185",
+      "swim:gufi": "KL44472200"
+    },
     "wof:country": "US",
     "wof:created": 1699978507,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -90,9 +103,10 @@
       102528997,
       1159285413,
       1763588329,
-      1159283875
+      1159283875,
+      1528104575
     ],
-    "wof:lastmodified": 1699978507,
+    "wof:lastmodified": 1699979602,
     "wof:name": "UA2603 (SAN-SFO)",
     "wof:parent_id": 1763588329,
     "wof:placetype": "custom",
