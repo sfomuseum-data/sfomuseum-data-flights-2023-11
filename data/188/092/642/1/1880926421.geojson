@@ -2,10 +2,12 @@
   "id": 1880926421,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-14",
+    "date:cessation_upper": "2023-11-14",
     "date:inception_lower": "2023-11-14",
     "date:inception_upper": "2023-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-14",
+    "edtf:cessation": "2023-11-14T19:35:51Z",
+    "edtf:inception": "2023-11-14T08:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "NH",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68291104"
+    },
     "wof:country": "US",
     "wof:created": 1700065203,
     "wof:geomhash": "64252c90f74b3e5d6a354a131140ee76",
@@ -92,7 +97,7 @@
       1763588455,
       1159285413
     ],
-    "wof:lastmodified": 1700065203,
+    "wof:lastmodified": 1700066012,
     "wof:name": "NH107 (SFO-HND)",
     "wof:parent_id": 1763588455,
     "wof:placetype": "custom",

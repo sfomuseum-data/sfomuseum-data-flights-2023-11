@@ -2,10 +2,12 @@
   "id": 1880924797,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-15",
+    "date:cessation_upper": "2023-11-15",
     "date:inception_lower": "2023-11-14",
     "date:inception_upper": "2023-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-14",
+    "edtf:cessation": "2023-11-15T01:01:00Z",
+    "edtf:inception": "2023-11-14T23:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-14",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68366234"
+    },
     "wof:country": "US",
     "wof:created": 1700064785,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -86,7 +91,7 @@
       1159285591,
       1763588185
     ],
-    "wof:lastmodified": 1700064785,
+    "wof:lastmodified": 1700065990,
     "wof:name": "WN1801 (BUR-SFO)",
     "wof:parent_id": 1763588185,
     "wof:placetype": "custom",

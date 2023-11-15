@@ -2,10 +2,12 @@
   "id": 1880923811,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-14",
-    "date:inception_upper": "2023-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-14",
+    "date:cessation_lower": "2023-11-14",
+    "date:cessation_upper": "2023-11-14",
+    "date:inception_lower": "2023-11-15",
+    "date:inception_upper": "2023-11-15",
+    "edtf:cessation": "2023-11-14T08:49:32Z",
+    "edtf:inception": "2023-11-15T05:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231114-A-AMX-4301",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N914DU",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68287053",
+      "swim:gufi": "KS18359400"
+    },
     "wof:country": "US",
     "wof:created": 1700064532,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880923811,
     "wof:involves": [
+      1159283539,
+      1377564285,
       102527513,
       102533269,
       1159284261,
-      1763588243,
-      1159283539
+      1763588243
     ],
-    "wof:lastmodified": 1700064532,
+    "wof:lastmodified": 1700066009,
     "wof:name": "DL2994 (SEA-SFO)",
     "wof:parent_id": 1763588243,
     "wof:placetype": "custom",

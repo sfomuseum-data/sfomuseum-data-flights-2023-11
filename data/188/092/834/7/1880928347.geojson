@@ -2,10 +2,12 @@
   "id": 1880928347,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-14",
+    "date:cessation_upper": "2023-11-14",
     "date:inception_lower": "2023-11-14",
     "date:inception_upper": "2023-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-14",
+    "edtf:cessation": "2023-11-14T23:48:00Z",
+    "edtf:inception": "2023-11-14T21:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-14",
@@ -34,7 +36,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "68349059"
+    },
     "wof:country": "US",
     "wof:created": 1700065689,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -50,7 +58,7 @@
       1159285591,
       -1
     ],
-    "wof:lastmodified": 1700065689,
+    "wof:lastmodified": 1700066001,
     "wof:name": "WN2779 (SFO-DEN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

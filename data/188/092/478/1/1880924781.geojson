@@ -2,10 +2,12 @@
   "id": 1880924781,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-14",
+    "date:cessation_upper": "2023-11-14",
     "date:inception_lower": "2023-11-14",
     "date:inception_upper": "2023-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-14",
+    "edtf:cessation": "2023-11-14T21:56:00Z",
+    "edtf:inception": "2023-11-14T19:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-14",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68331044"
+    },
     "wof:country": "US",
     "wof:created": 1700064781,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -86,7 +91,7 @@
       1159285591,
       1763588185
     ],
-    "wof:lastmodified": 1700064781,
+    "wof:lastmodified": 1700066010,
     "wof:name": "WN1337 (DEN-SFO)",
     "wof:parent_id": 1763588185,
     "wof:placetype": "custom",
