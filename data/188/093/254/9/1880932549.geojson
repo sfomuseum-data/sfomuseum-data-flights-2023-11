@@ -2,10 +2,12 @@
   "id": 1880932549,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-15",
+    "date:cessation_upper": "2023-11-15",
     "date:inception_lower": "2023-11-15",
     "date:inception_upper": "2023-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-15",
+    "edtf:cessation": "2023-11-15T16:35:00Z",
+    "edtf:inception": "2023-11-15T15:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-15",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68417273"
+    },
     "wof:country": "US",
     "wof:created": 1700151219,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -86,7 +91,7 @@
       1159285591,
       1763588191
     ],
-    "wof:lastmodified": 1700151219,
+    "wof:lastmodified": 1700152392,
     "wof:name": "WN981 (BUR-SFO)",
     "wof:parent_id": 1763588191,
     "wof:placetype": "custom",

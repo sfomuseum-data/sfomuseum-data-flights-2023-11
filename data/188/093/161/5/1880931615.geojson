@@ -2,10 +2,12 @@
   "id": 1880931615,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-16",
+    "date:cessation_upper": "2023-11-16",
     "date:inception_lower": "2023-11-15",
     "date:inception_upper": "2023-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-15",
+    "edtf:cessation": "2023-11-16T00:51:00Z",
+    "edtf:inception": "2023-11-15T21:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2023-11-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.5073405,
     "geom:longitude": -109.982418,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531811,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "68454879",
+      "swim:gufi": "KF72660400"
+    },
     "wof:country": "US",
     "wof:created": 1700150990,
     "wof:geomhash": "7685368f2ace650ddf08145f6ec5f0c3",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1880931615,
     "wof:involves": [
+      1159289939,
       102527513,
       102531811,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1700150990,
+    "wof:lastmodified": 1700152389,
     "wof:name": "DL8936 (OKC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

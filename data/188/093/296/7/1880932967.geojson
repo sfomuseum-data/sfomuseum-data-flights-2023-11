@@ -2,10 +2,12 @@
   "id": 1880932967,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-16",
+    "date:cessation_upper": "2023-11-16",
     "date:inception_lower": "2023-11-15",
     "date:inception_upper": "2023-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-15",
+    "edtf:cessation": "2023-11-16T01:38:00Z",
+    "edtf:inception": "2023-11-15T14:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2023-11-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.781954,
     "geom:longitude": -57.5518295,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102549057,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,10 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68408535",
+      "swim:gufi": "KS83156400"
+    },
     "wof:country": "US",
     "wof:created": 1700151325,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1880932967,
     "wof:involves": [
+      1159289993,
       102527513,
       102549057,
       1159285413,
       1763588451
     ],
-    "wof:lastmodified": 1700151325,
+    "wof:lastmodified": 1700152412,
     "wof:name": "UA3010 (FRA-SFO)",
     "wof:parent_id": 1763588451,
     "wof:placetype": "custom",

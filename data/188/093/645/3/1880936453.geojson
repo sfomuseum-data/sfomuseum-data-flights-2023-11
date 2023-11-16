@@ -2,10 +2,12 @@
   "id": 1880936453,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-15",
-    "date:inception_upper": "2023-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-15",
+    "date:cessation_lower": "2023-11-16",
+    "date:cessation_upper": "2023-11-16",
+    "date:inception_lower": "2023-11-16",
+    "date:inception_upper": "2023-11-16",
+    "edtf:cessation": "2023-11-16T02:42:57Z",
+    "edtf:inception": "2023-11-16T01:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:base_flight_id": "20231115-D-ANZ-9627",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N889UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68371233",
+      "swim:gufi": "KO80940400"
+    },
     "wof:country": "US",
     "wof:created": 1700152166,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880936453,
     "wof:involves": [
+      1159289407,
       102527363,
       102527513,
       1159285413,
       1763588289,
       1159283697
     ],
-    "wof:lastmodified": 1700152166,
+    "wof:lastmodified": 1700152415,
     "wof:name": "UA1583 (SFO-SLC)",
     "wof:parent_id": 1763588289,
     "wof:placetype": "custom",
