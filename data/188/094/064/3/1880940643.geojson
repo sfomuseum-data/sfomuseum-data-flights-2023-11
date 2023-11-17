@@ -2,10 +2,12 @@
   "id": 1880940643,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-16",
+    "date:cessation_upper": "2023-11-16",
     "date:inception_lower": "2023-11-16",
     "date:inception_upper": "2023-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-16",
+    "edtf:cessation": "2023-11-16T09:34:00Z",
+    "edtf:inception": "2023-11-16T06:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2023-11-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.576414,
     "geom:longitude": -110.4218635,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527373,
@@ -48,6 +52,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68582343",
+      "swim:gufi": "KH06400500"
+    },
     "wof:country": "US",
     "wof:created": 1700237721,
     "wof:geomhash": "d45c6baaf0d56697f52acbb8a9e14867",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1880940643,
     "wof:involves": [
-      102527513,
       102527373,
       1159285413,
-      1763588287
+      1763588287,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1700237721,
+    "wof:lastmodified": 1700238811,
     "wof:name": "UA3938 (SAT-SFO)",
     "wof:parent_id": 1763588287,
     "wof:placetype": "custom",

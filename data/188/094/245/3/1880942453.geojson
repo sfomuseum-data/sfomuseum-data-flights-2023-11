@@ -2,10 +2,12 @@
   "id": 1880942453,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-17",
+    "date:cessation_upper": "2023-11-17",
     "date:inception_lower": "2023-11-16",
     "date:inception_upper": "2023-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-16",
+    "edtf:cessation": "2023-11-17T00:47:36Z",
+    "edtf:inception": "2023-11-16T21:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "SIA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:base_flight_id": "20231116-D-SIA-1354",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +61,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68565956"
+    },
     "wof:country": "US",
     "wof:created": 1700238164,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -86,13 +97,14 @@
     ],
     "wof:id": 1880942453,
     "wof:involves": [
+      1528104577,
       102533631,
       102527513,
       1159283813,
       1763588143,
       1159286259
     ],
-    "wof:lastmodified": 1700238164,
+    "wof:lastmodified": 1700238823,
     "wof:name": "AS332 (SFO-ORD)",
     "wof:parent_id": 1763588143,
     "wof:placetype": "custom",

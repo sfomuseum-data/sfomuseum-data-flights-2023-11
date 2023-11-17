@@ -2,10 +2,12 @@
   "id": 1880944309,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-16",
-    "date:inception_upper": "2023-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-16",
+    "date:cessation_lower": "2023-11-17",
+    "date:cessation_upper": "2023-11-17",
+    "date:inception_lower": "2023-11-17",
+    "date:inception_upper": "2023-11-17",
+    "edtf:cessation": "2023-11-17T04:28:29Z",
+    "edtf:inception": "2023-11-17T03:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534161,
     "sfomuseum:base_flight_id": "20231116-D-DLH-7594",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N428UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68491740",
+      "swim:gufi": "KO03190600"
+    },
     "wof:country": "US",
     "wof:created": 1700238610,
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880944309,
     "wof:involves": [
+      1159292085,
       102534161,
       102527513,
       1159285413,
       1763588283,
       1159286015
     ],
-    "wof:lastmodified": 1700238610,
+    "wof:lastmodified": 1700238832,
     "wof:name": "UA2047 (SFO-SNA)",
     "wof:parent_id": 1763588283,
     "wof:placetype": "custom",

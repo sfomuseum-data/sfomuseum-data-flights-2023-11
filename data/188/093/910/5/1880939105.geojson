@@ -2,10 +2,12 @@
   "id": 1880939105,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-17",
+    "date:cessation_upper": "2023-11-17",
     "date:inception_lower": "2023-11-16",
     "date:inception_upper": "2023-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-16",
+    "edtf:cessation": "2023-11-17T00:17:34Z",
+    "edtf:inception": "2023-11-16T22:40:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231116-A-KLM-6430",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +61,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68576823",
+      "swim:gufi": "KU77461500"
+    },
     "wof:country": "US",
     "wof:created": 1700237340,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -90,9 +102,10 @@
       102527363,
       1159284261,
       1763588245,
-      1159284613
+      1159284613,
+      1159289407
     ],
-    "wof:lastmodified": 1700237340,
+    "wof:lastmodified": 1700238817,
     "wof:name": "DL2443 (SLC-SFO)",
     "wof:parent_id": 1763588245,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1880942911,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-17",
+    "date:cessation_upper": "2023-11-17",
     "date:inception_lower": "2023-11-16",
     "date:inception_upper": "2023-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-16",
+    "edtf:cessation": "2023-11-17T03:20:00Z",
+    "edtf:inception": "2023-11-16T23:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2023-11-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68583711",
+      "swim:gufi": "KO81341500"
+    },
     "wof:country": "US",
     "wof:created": 1700238273,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1880942911,
     "wof:involves": [
+      1377564285,
       102526927,
       102527513,
       1159284261,
       1763588245
     ],
-    "wof:lastmodified": 1700238273,
+    "wof:lastmodified": 1700238827,
     "wof:name": "DL834 (SFO-ATL)",
     "wof:parent_id": 1763588245,
     "wof:placetype": "custom",

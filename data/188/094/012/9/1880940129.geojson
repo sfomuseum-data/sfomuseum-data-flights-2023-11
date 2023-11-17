@@ -2,10 +2,12 @@
   "id": 1880940129,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-16",
+    "date:cessation_upper": "2023-11-16",
     "date:inception_lower": "2023-11-16",
     "date:inception_upper": "2023-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-16",
+    "edtf:cessation": "2023-11-16T18:05:00Z",
+    "edtf:inception": "2023-11-16T16:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-16",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68536486"
+    },
     "wof:country": "US",
     "wof:created": 1700237594,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -86,7 +91,7 @@
       1159285591,
       1763588185
     ],
-    "wof:lastmodified": 1700237594,
+    "wof:lastmodified": 1700238806,
     "wof:name": "WN1051 (PHX-SFO)",
     "wof:parent_id": 1763588185,
     "wof:placetype": "custom",

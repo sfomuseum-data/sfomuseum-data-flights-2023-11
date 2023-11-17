@@ -2,10 +2,12 @@
   "id": 1880944601,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-16",
+    "date:cessation_upper": "2023-11-16",
     "date:inception_lower": "2023-11-16",
     "date:inception_upper": "2023-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-16",
+    "edtf:cessation": "2023-11-16T19:56:56Z",
+    "edtf:inception": "2023-11-16T19:10:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -39,6 +41,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +58,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68553224"
+    },
     "wof:country": "US",
     "wof:created": 1700238679,
     "wof:geomhash": "1d9a5fa2c9575ebb155d9645f1016c57",
@@ -92,7 +100,7 @@
       1763588283,
       1159283597
     ],
-    "wof:lastmodified": 1700238679,
+    "wof:lastmodified": 1700238833,
     "wof:name": "UA611 (SFO-SBA)",
     "wof:parent_id": 1763588283,
     "wof:placetype": "custom",
