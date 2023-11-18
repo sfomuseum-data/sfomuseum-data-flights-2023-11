@@ -2,10 +2,12 @@
   "id": 1880950255,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-17",
+    "date:cessation_upper": "2023-11-17",
     "date:inception_lower": "2023-11-17",
     "date:inception_upper": "2023-11-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-17",
+    "edtf:cessation": "2023-11-17T21:04:50Z",
+    "edtf:inception": "2023-11-17T17:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2023-11-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 32.795441,
     "geom:longitude": -102.4509355,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533243,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N224AK",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68641483"
+    },
     "wof:country": "US",
     "wof:created": 1700324642,
     "wof:geomhash": "eed3ad030b4c80153105b635669626b5",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1880950255,
     "wof:involves": [
+      1377564285,
       102533243,
       102527513,
       1159283813,
       1763588131
     ],
-    "wof:lastmodified": 1700324642,
+    "wof:lastmodified": 1700325308,
     "wof:name": "AS448 (SFO-TPA)",
     "wof:parent_id": 1763588131,
     "wof:placetype": "custom",

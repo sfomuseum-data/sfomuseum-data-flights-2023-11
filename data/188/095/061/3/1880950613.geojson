@@ -2,10 +2,12 @@
   "id": 1880950613,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-17",
+    "date:cessation_upper": "2023-11-17",
     "date:inception_lower": "2023-11-17",
     "date:inception_upper": "2023-11-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-17",
+    "edtf:cessation": "2023-11-17T15:54:00Z",
+    "edtf:inception": "2023-11-17T14:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20231117-D-AMX-4326",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N837DN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68624761",
+      "swim:gufi": "KO47141600"
+    },
     "wof:country": "US",
     "wof:created": 1700324738,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880950613,
     "wof:involves": [
+      1377564285,
       102533269,
       102527513,
       1159284261,
       1763588243,
       1159283539
     ],
-    "wof:lastmodified": 1700324738,
+    "wof:lastmodified": 1700325311,
     "wof:name": "DL2310 (SFO-SEA)",
     "wof:parent_id": 1763588243,
     "wof:placetype": "custom",

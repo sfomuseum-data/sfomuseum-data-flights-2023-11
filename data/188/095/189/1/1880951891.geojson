@@ -2,10 +2,12 @@
   "id": 1880951891,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-18",
+    "date:cessation_upper": "2023-11-18",
     "date:inception_lower": "2023-11-17",
     "date:inception_upper": "2023-11-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-17",
+    "edtf:cessation": "2023-11-18T00:06:15Z",
+    "edtf:inception": "2023-11-17T21:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:base_flight_id": "20231117-D-ACA-3774",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N17301",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68669409",
+      "swim:gufi": "KO55205600"
+    },
     "wof:country": "US",
     "wof:created": 1700325058,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880951891,
     "wof:involves": [
-      102521851,
       102527513,
       1159285413,
       1763588345,
-      1159283597
+      1159283597,
+      1528104575,
+      102521851
     ],
-    "wof:lastmodified": 1700325058,
+    "wof:lastmodified": 1700325323,
     "wof:name": "UA1116 (SFO-AUS)",
     "wof:parent_id": 1763588345,
     "wof:placetype": "custom",

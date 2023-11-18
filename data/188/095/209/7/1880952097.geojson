@@ -2,10 +2,12 @@
   "id": 1880952097,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-17",
+    "date:cessation_upper": "2023-11-17",
     "date:inception_lower": "2023-11-17",
     "date:inception_upper": "2023-11-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-17",
+    "edtf:cessation": "2023-11-17T08:28:00Z",
+    "edtf:inception": "2023-11-17T07:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:base_flight_id": "20231117-D-ANZ-9188",
@@ -53,6 +57,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68607209",
+      "swim:gufi": "KO16895600"
+    },
     "wof:country": "US",
     "wof:created": 1700325110,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -86,13 +94,14 @@
     ],
     "wof:id": 1880952097,
     "wof:involves": [
+      1763588159,
+      1159283697,
+      1159289407,
       102533927,
       102527513,
-      1159285413,
-      1763588159,
-      1159283697
+      1159285413
     ],
-    "wof:lastmodified": 1700325110,
+    "wof:lastmodified": 1700325327,
     "wof:name": "UA2142 (SFO-EUG)",
     "wof:parent_id": 1763588159,
     "wof:placetype": "custom",
