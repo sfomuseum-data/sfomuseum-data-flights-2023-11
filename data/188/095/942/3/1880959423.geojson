@@ -2,10 +2,12 @@
   "id": 1880959423,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-18",
+    "date:cessation_upper": "2023-11-18",
     "date:inception_lower": "2023-11-18",
     "date:inception_upper": "2023-11-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-18",
+    "edtf:cessation": "2023-11-18T08:49:00Z",
+    "edtf:inception": "2023-11-18T07:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20231118-D-ANZ-9401",
@@ -53,6 +57,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68707762",
+      "swim:gufi": "KO16328700"
+    },
     "wof:country": "US",
     "wof:created": 1700411280,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -86,13 +94,14 @@
     ],
     "wof:id": 1880959423,
     "wof:involves": [
-      102533269,
       102527513,
       1159285413,
       1763588147,
-      1159283697
+      1159283697,
+      1528104577,
+      102533269
     ],
-    "wof:lastmodified": 1700411280,
+    "wof:lastmodified": 1700411495,
     "wof:name": "UA1971 (SFO-SEA)",
     "wof:parent_id": 1763588147,
     "wof:placetype": "custom",
