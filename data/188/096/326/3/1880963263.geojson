@@ -2,10 +2,12 @@
   "id": 1880963263,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-19",
+    "date:cessation_upper": "2023-11-19",
     "date:inception_lower": "2023-11-19",
     "date:inception_upper": "2023-11-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-19",
+    "edtf:cessation": "2023-11-19T06:26:00Z",
+    "edtf:inception": "2023-11-19T02:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231119-A-ACA-5255",
@@ -53,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68794298",
+      "swim:gufi": "KG85140700"
+    },
     "wof:country": "US",
     "wof:created": 1700496866,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -86,13 +94,14 @@
     ],
     "wof:id": 1880963263,
     "wof:involves": [
-      102527513,
-      102533631,
       1159285413,
       1763588325,
-      1159283597
+      1159283597,
+      1159289985,
+      102527513,
+      102533631
     ],
-    "wof:lastmodified": 1700496866,
+    "wof:lastmodified": 1700498012,
     "wof:name": "UA1535 (ORD-SFO)",
     "wof:parent_id": 1763588325,
     "wof:placetype": "custom",

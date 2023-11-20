@@ -2,10 +2,12 @@
   "id": 1880966993,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-19",
-    "date:inception_upper": "2023-11-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-19",
+    "date:cessation_lower": "2023-11-20",
+    "date:cessation_upper": "2023-11-20",
+    "date:inception_lower": "2023-11-20",
+    "date:inception_upper": "2023-11-20",
+    "edtf:cessation": "2023-11-20T05:42:00Z",
+    "edtf:inception": "2023-11-20T00:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:base_flight_id": "20231119-D-DLH-7726",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N222UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68787893",
+      "swim:gufi": "KO76298100"
+    },
     "wof:country": "US",
     "wof:created": 1700497766,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880966993,
     "wof:involves": [
+      1159289985,
       102533997,
       102527513,
       1159285413,
       1763588325,
       1159286015
     ],
-    "wof:lastmodified": 1700497766,
+    "wof:lastmodified": 1700498022,
     "wof:name": "UA1509 (SFO-HNL)",
     "wof:parent_id": 1763588325,
     "wof:placetype": "custom",

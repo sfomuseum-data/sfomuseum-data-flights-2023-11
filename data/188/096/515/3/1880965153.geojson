@@ -2,10 +2,12 @@
   "id": 1880965153,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-20",
+    "date:cessation_upper": "2023-11-20",
     "date:inception_lower": "2023-11-19",
     "date:inception_upper": "2023-11-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-19",
+    "edtf:cessation": "2023-11-20T00:29:41Z",
+    "edtf:inception": "2023-11-19T22:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -39,6 +41,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +58,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68873461"
+    },
     "wof:country": "US",
     "wof:created": 1700497326,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -92,7 +100,7 @@
       1763588141,
       1159284021
     ],
-    "wof:lastmodified": 1700497326,
+    "wof:lastmodified": 1700498018,
     "wof:name": "AS1059 (SFO-SEA)",
     "wof:parent_id": 1763588141,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1880963431,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-19",
-    "date:inception_upper": "2023-11-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-19",
+    "date:cessation_lower": "2023-11-20",
+    "date:cessation_upper": "2023-11-20",
+    "date:inception_lower": "2023-11-20",
+    "date:inception_upper": "2023-11-20",
+    "edtf:cessation": "2023-11-20T03:35:00Z",
+    "edtf:inception": "2023-11-20T00:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2023-11-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.0599055,
     "geom:longitude": -108.03540699999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102529577,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N792UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68883250",
+      "swim:gufi": "KF56649100"
+    },
     "wof:country": "US",
     "wof:created": 1700496910,
     "wof:geomhash": "7edc9c20663b4ba904a67f299f0cd47b",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1880963431,
     "wof:involves": [
+      1159289985,
       102527513,
       102529577,
       1159285413,
       1763588309
     ],
-    "wof:lastmodified": 1700496910,
+    "wof:lastmodified": 1700498006,
     "wof:name": "UA2588 (BAD-SFO)",
     "wof:parent_id": 1763588309,
     "wof:placetype": "custom",

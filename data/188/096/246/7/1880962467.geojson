@@ -2,10 +2,12 @@
   "id": 1880962467,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-19",
+    "date:cessation_upper": "2023-11-19",
     "date:inception_lower": "2023-11-19",
     "date:inception_upper": "2023-11-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-19",
+    "edtf:cessation": "2023-11-19T09:25:00Z",
+    "edtf:inception": "2023-11-19T03:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68792594"
+    },
     "wof:country": "US",
     "wof:created": 1700496671,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -92,7 +97,7 @@
       1763588199,
       1159284513
     ],
-    "wof:lastmodified": 1700496671,
+    "wof:lastmodified": 1700498010,
     "wof:name": "B6333 (BOS-SFO)",
     "wof:parent_id": 1763588199,
     "wof:placetype": "custom",

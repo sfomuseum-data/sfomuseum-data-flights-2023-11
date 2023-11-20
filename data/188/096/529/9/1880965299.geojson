@@ -2,10 +2,12 @@
   "id": 1880965299,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-19",
+    "date:cessation_upper": "2023-11-19",
     "date:inception_lower": "2023-11-19",
     "date:inception_upper": "2023-11-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-19",
+    "edtf:cessation": "2023-11-19T21:31:39Z",
+    "edtf:inception": "2023-11-19T17:10:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2023-11-19",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +54,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68839282"
+    },
     "wof:country": "US",
     "wof:created": 1700497360,
     "wof:geomhash": "eed3ad030b4c80153105b635669626b5",
@@ -86,7 +95,7 @@
       1159283813,
       1763588141
     ],
-    "wof:lastmodified": 1700497360,
+    "wof:lastmodified": 1700498018,
     "wof:name": "AS448 (SFO-TPA)",
     "wof:parent_id": 1763588141,
     "wof:placetype": "custom",
