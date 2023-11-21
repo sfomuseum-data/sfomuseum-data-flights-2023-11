@@ -2,10 +2,12 @@
   "id": 1880971071,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-20",
+    "date:cessation_upper": "2023-11-20",
     "date:inception_lower": "2023-11-20",
     "date:inception_upper": "2023-11-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-20",
+    "edtf:cessation": "2023-11-20T17:23:00Z",
+    "edtf:inception": "2023-11-20T14:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231120-A-ANA-7333",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N37540",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68923700",
+      "swim:gufi": "KH41397200"
+    },
     "wof:country": "US",
     "wof:created": 1700583270,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880971071,
     "wof:involves": [
-      102527513,
       102521851,
       1159285413,
       1763588355,
-      1159283875
+      1159283875,
+      1528104577,
+      102527513
     ],
-    "wof:lastmodified": 1700583270,
+    "wof:lastmodified": 1700584400,
     "wof:name": "UA2123 (AUS-SFO)",
     "wof:parent_id": 1763588355,
     "wof:placetype": "custom",

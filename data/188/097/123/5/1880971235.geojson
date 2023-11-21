@@ -2,10 +2,12 @@
   "id": 1880971235,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-20",
+    "date:cessation_upper": "2023-11-20",
     "date:inception_lower": "2023-11-20",
     "date:inception_upper": "2023-11-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-20",
+    "edtf:cessation": "2023-11-20T23:36:00Z",
+    "edtf:inception": "2023-11-20T22:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231120-A-DLH-7645",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N883UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "68977671",
+      "swim:gufi": "KS65877200"
+    },
     "wof:country": "US",
     "wof:created": 1700583310,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880971235,
     "wof:involves": [
+      1159289407,
       102527513,
       102533927,
       1159285413,
       1763588351,
       1159286015
     ],
-    "wof:lastmodified": 1700583310,
+    "wof:lastmodified": 1700584402,
     "wof:name": "UA490 (EUG-SFO)",
     "wof:parent_id": 1763588351,
     "wof:placetype": "custom",
