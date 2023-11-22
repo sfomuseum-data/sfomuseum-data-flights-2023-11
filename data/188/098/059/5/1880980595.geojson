@@ -2,10 +2,12 @@
   "id": 1880980595,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-21",
+    "date:cessation_upper": "2023-11-21",
     "date:inception_lower": "2023-11-21",
     "date:inception_upper": "2023-11-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-21",
+    "edtf:cessation": "2023-11-21T23:10:00Z",
+    "edtf:inception": "2023-11-21T01:53:33-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:base_flight_id": "20231121-D-AAL-7463",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N952AK",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO59813300"
+    },
     "wof:country": "US",
     "wof:created": 1700670104,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880980595,
     "wof:involves": [
+      1159283849,
+      1528104577,
       102530049,
       102527513,
       1159283813,
-      1763588145,
-      1159283849
+      1763588145
     ],
-    "wof:lastmodified": 1700670104,
+    "wof:lastmodified": 1700670777,
     "wof:name": "AS292 (SFO-EWR)",
     "wof:parent_id": 1763588145,
     "wof:placetype": "custom",

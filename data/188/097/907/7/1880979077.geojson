@@ -2,10 +2,12 @@
   "id": 1880979077,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-21",
+    "date:cessation_upper": "2023-11-21",
     "date:inception_lower": "2023-11-21",
     "date:inception_upper": "2023-11-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-21",
+    "edtf:cessation": "2023-11-21T00:51:28-08:00",
+    "edtf:inception": "2023-11-21T12:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231121-A-ACA-5403",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N490UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KA49887300"
+    },
     "wof:country": "US",
     "wof:created": 1700669742,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880979077,
     "wof:involves": [
+      1159283597,
+      1159292085,
       102527513,
       102536579,
       1159285413,
-      1763588449,
-      1159283597
+      1763588449
     ],
-    "wof:lastmodified": 1700669742,
+    "wof:lastmodified": 1700670803,
     "wof:name": "UA820 (MEX-SFO)",
     "wof:parent_id": 1763588449,
     "wof:placetype": "custom",

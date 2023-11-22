@@ -2,10 +2,12 @@
   "id": 1880978387,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-21",
+    "date:cessation_upper": "2023-11-21",
     "date:inception_lower": "2023-11-21",
     "date:inception_upper": "2023-11-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-21",
+    "edtf:cessation": "2023-11-21T23:34:00Z",
+    "edtf:inception": "2023-11-21T22:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.674126,
     "geom:longitude": -104.324809,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534155,
@@ -34,7 +38,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N480WN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "69008310"
+    },
     "wof:country": "US",
     "wof:created": 1700669578,
     "wof:geomhash": "c95405ad82a47404b222d64c163ad7d9",
@@ -45,12 +56,12 @@
     ],
     "wof:id": 1880978387,
     "wof:involves": [
-      102527513,
       102534155,
       1159285591,
-      -1
+      1159289869,
+      102527513
     ],
-    "wof:lastmodified": 1700669578,
+    "wof:lastmodified": 1700670795,
     "wof:name": "WN2019 (IND-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
