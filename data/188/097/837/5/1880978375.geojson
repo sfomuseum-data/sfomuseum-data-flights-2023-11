@@ -1,0 +1,69 @@
+{
+  "id": 1880978375,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2023-11-21",
+    "date:inception_upper": "2023-11-21",
+    "edtf:cessation": "",
+    "edtf:inception": "2023-11-21",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2023-11-21",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "WN1527",
+    "flysfo:gate": "",
+    "flysfo:journey": "SYR-SFO",
+    "flysfo:scheduled_timestamp": 1700620200,
+    "flysfo:timestamp": 1700620200,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-76.111213,43.113083",
+    "geom:latitude": 40.365536500000005,
+    "geom:longitude": -99.241078,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102529833,
+    "sfomuseum:flight_id": "20231121-A-SWA-1527",
+    "sfomuseum:flight_number": [
+      "SWA1527",
+      "WN1527"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1700669575,
+    "wof:geomhash": "37660c8bebf352588681fe5812e8233f",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1880978375
+      }
+    ],
+    "wof:id": 1880978375,
+    "wof:involves": [
+      102527513,
+      102529833,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1700669575,
+    "wof:name": "WN1527 (SYR-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2023-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -76.111213,
+    43.113083
+  ],
+  "geometry": {"coordinates":[[-76.111213,43.113083],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
