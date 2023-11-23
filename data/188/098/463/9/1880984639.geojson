@@ -2,10 +2,12 @@
   "id": 1880984639,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-22",
+    "date:cessation_upper": "2023-11-22",
     "date:inception_lower": "2023-11-22",
     "date:inception_upper": "2023-11-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-22",
+    "edtf:cessation": "2023-11-22T05:14:12Z",
+    "edtf:inception": "2023-11-22T02:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.610733,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "SIA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231122-A-SIA-1383",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N272AK",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +61,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69112641"
+    },
     "wof:country": "US",
     "wof:created": 1700755650,
     "wof:geomhash": "ecfc64ce72b903780fc129f985c12eef",
@@ -86,13 +97,14 @@
     ],
     "wof:id": 1880984639,
     "wof:involves": [
+      1377564285,
       102527513,
       102525799,
       1159283813,
       1763588135,
       1159286259
     ],
-    "wof:lastmodified": 1700755650,
+    "wof:lastmodified": 1700757221,
     "wof:name": "AS417 (DAL-SFO)",
     "wof:parent_id": 1763588135,
     "wof:placetype": "custom",

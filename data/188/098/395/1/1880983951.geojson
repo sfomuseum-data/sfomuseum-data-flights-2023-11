@@ -2,10 +2,12 @@
   "id": 1880983951,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-23",
+    "date:cessation_upper": "2023-11-23",
     "date:inception_lower": "2023-11-22",
     "date:inception_upper": "2023-11-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-22",
+    "edtf:cessation": "2023-11-23T00:28:58Z",
+    "edtf:inception": "2023-11-22T08:20:52Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AI",
     "flysfo:date": "2023-11-22",
@@ -48,6 +50,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69126495"
+    },
     "wof:country": "US",
     "wof:created": 1700755476,
     "wof:geomhash": "71cdaf51a648b6adc1eef8af56a4c6ba",
@@ -86,7 +91,7 @@
       1159283649,
       1763588413
     ],
-    "wof:lastmodified": 1700755476,
+    "wof:lastmodified": 1700757215,
     "wof:name": "AI175 (BLR-SFO)",
     "wof:parent_id": 1763588413,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1880986351,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-22",
-    "date:inception_upper": "2023-11-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-22",
+    "date:cessation_lower": "2023-11-23",
+    "date:cessation_upper": "2023-11-23",
+    "date:inception_lower": "2023-11-23",
+    "date:inception_upper": "2023-11-23",
+    "edtf:cessation": "2023-11-23T05:44:00Z",
+    "edtf:inception": "2023-11-23T01:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231122-A-ANZ-9006",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N451UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69105435",
+      "swim:gufi": "KT74559400"
+    },
     "wof:country": "US",
     "wof:created": 1700756059,
     "wof:geomhash": "ae92617dd2aca2afdb0c9096232ff0bb",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880986351,
     "wof:involves": [
+      1159292085,
       102527513,
       102526927,
       1159285413,
       1763588289,
       1159283697
     ],
-    "wof:lastmodified": 1700756059,
+    "wof:lastmodified": 1700757241,
     "wof:name": "UA1259 (ATL-SFO)",
     "wof:parent_id": 1763588289,
     "wof:placetype": "custom",

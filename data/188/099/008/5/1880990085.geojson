@@ -2,10 +2,12 @@
   "id": 1880990085,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-22",
+    "date:cessation_upper": "2023-11-22",
     "date:inception_lower": "2023-11-22",
     "date:inception_upper": "2023-11-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-22",
+    "edtf:cessation": "2023-11-22T23:53:00Z",
+    "edtf:inception": "2023-11-22T22:59:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.618774,
     "lbl:longitude": -122.384852,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20231122-D-CCA-7321",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +60,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69199663",
+      "swim:gufi": "KO76287400"
+    },
     "wof:country": "US",
     "wof:created": 1700756937,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -86,13 +97,14 @@
     ],
     "wof:id": 1880990085,
     "wof:involves": [
+      1159283605,
+      1528104575,
       102533795,
       102527513,
       1159285413,
-      1763588341,
-      1159283605
+      1763588341
     ],
-    "wof:lastmodified": 1700756937,
+    "wof:lastmodified": 1700757214,
     "wof:name": "UA1008 (SFO-LAX)",
     "wof:parent_id": 1763588341,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1880989867,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-22",
+    "date:cessation_upper": "2023-11-22",
     "date:inception_lower": "2023-11-22",
     "date:inception_upper": "2023-11-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-22",
+    "edtf:cessation": "2023-11-22T19:10:00Z",
+    "edtf:inception": "2023-11-22T17:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-22",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69163639"
+    },
     "wof:country": "US",
     "wof:created": 1700756885,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -86,7 +91,7 @@
       1159285591,
       1763588193
     ],
-    "wof:lastmodified": 1700756885,
+    "wof:lastmodified": 1700757237,
     "wof:name": "WN1305 (SFO-PHX)",
     "wof:parent_id": 1763588193,
     "wof:placetype": "custom",
