@@ -2,10 +2,12 @@
   "id": 1880995827,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-24",
+    "date:cessation_upper": "2023-11-24",
     "date:inception_lower": "2023-11-23",
     "date:inception_upper": "2023-11-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-23",
+    "edtf:cessation": "2023-11-24T01:36:22Z",
+    "edtf:inception": "2023-11-23T08:51:33-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527337,
     "sfomuseum:base_flight_id": "20231123-D-ACA-4362",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N490UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69209085",
+      "swim:gufi": "KO78158500"
+    },
     "wof:country": "US",
     "wof:created": 1700842947,
     "wof:geomhash": "1d9a5fa2c9575ebb155d9645f1016c57",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1880995827,
     "wof:involves": [
+      1763588351,
+      1159283597,
+      1159292085,
       102527337,
       102527513,
-      1159285413,
-      1763588351,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1700842947,
+    "wof:lastmodified": 1700843134,
     "wof:name": "UA372 (SFO-SBA)",
     "wof:parent_id": 1763588351,
     "wof:placetype": "custom",

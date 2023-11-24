@@ -2,10 +2,12 @@
   "id": 1880995683,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-24",
+    "date:cessation_upper": "2023-11-24",
     "date:inception_lower": "2023-11-23",
     "date:inception_upper": "2023-11-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-23",
+    "edtf:cessation": "2023-11-24T12:44:00Z",
+    "edtf:inception": "2023-11-23T07:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:base_flight_id": "20231123-D-ANZ-9018",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17128",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69230037"
+    },
     "wof:country": "US",
     "wof:created": 1700842912,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -86,13 +98,14 @@
     ],
     "wof:id": 1880995683,
     "wof:involves": [
+      1159289939,
       102530741,
       102527513,
       1159285413,
       1763588329,
       1159283697
     ],
-    "wof:lastmodified": 1700842912,
+    "wof:lastmodified": 1700843145,
     "wof:name": "UA1665 (SFO-BOS)",
     "wof:parent_id": 1763588329,
     "wof:placetype": "custom",
