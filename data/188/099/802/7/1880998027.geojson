@@ -2,10 +2,12 @@
   "id": 1880998027,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-24",
+    "date:cessation_upper": "2023-11-24",
     "date:inception_lower": "2023-11-24",
     "date:inception_upper": "2023-11-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-24",
+    "edtf:cessation": "2023-11-24T23:52:00Z",
+    "edtf:inception": "2023-11-24T19:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2023-11-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B764",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1394298249,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "69361171",
+      "swim:gufi": "KG67249600"
+    },
     "wof:country": "US",
     "wof:created": 1700928524,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1880998027,
     "wof:involves": [
+      1394298249,
       102527513,
       102534365,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1700928524,
+    "wof:lastmodified": 1700929883,
     "wof:name": "DL8911 (JFK-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
