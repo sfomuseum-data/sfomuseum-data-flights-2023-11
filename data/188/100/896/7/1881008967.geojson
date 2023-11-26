@@ -1,0 +1,69 @@
+{
+  "id": 1881008967,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2023-11-25",
+    "date:inception_upper": "2023-11-25",
+    "edtf:cessation": "",
+    "edtf:inception": "2023-11-25",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2023-11-25",
+    "flysfo:estimated_timestamp": 1700978760,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL8911",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-SBN",
+    "flysfo:scheduled_timestamp": 1700976600,
+    "flysfo:timestamp": 1700978760,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-86.312675,41.701381",
+    "geom:latitude": 39.659685499999995,
+    "geom:longitude": -104.341809,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102531095,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20231125-D-DAL-8911",
+    "sfomuseum:flight_number": [
+      "DAL8911",
+      "DL8911"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1701015904,
+    "wof:geomhash": "628a45346da0e6969e7f4ab3d55659bf",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1881008967
+      }
+    ],
+    "wof:id": 1881008967,
+    "wof:involves": [
+      102531095,
+      102527513,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1701015904,
+    "wof:name": "DL8911 (SFO-SBN)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2023-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -86.312675,
+    41.701381
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-86.312675,41.701381]],"type":"MultiPoint"}
+}
