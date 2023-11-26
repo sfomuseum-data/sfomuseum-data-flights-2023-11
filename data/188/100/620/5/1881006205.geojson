@@ -2,10 +2,12 @@
   "id": 1881006205,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-25",
+    "date:cessation_upper": "2023-11-25",
     "date:inception_lower": "2023-11-25",
     "date:inception_upper": "2023-11-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-25",
+    "edtf:cessation": "2023-11-25T23:15:46Z",
+    "edtf:inception": "2023-11-25T22:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-25",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +53,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69474937"
+    },
     "wof:country": "US",
     "wof:created": 1701015249,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -86,7 +94,7 @@
       1159285591,
       1763588191
     ],
-    "wof:lastmodified": 1701015249,
+    "wof:lastmodified": 1701016486,
     "wof:name": "WN853 (SAN-SFO)",
     "wof:parent_id": 1763588191,
     "wof:placetype": "custom",
