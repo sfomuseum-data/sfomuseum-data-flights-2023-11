@@ -2,10 +2,12 @@
   "id": 1881015259,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2023-11-26",
     "date:inception_upper": "2023-11-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-26",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2023-11-26T15:11:15-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20231126-D-BAW-5606",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N105NN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -86,13 +94,14 @@
     ],
     "wof:id": 1881015259,
     "wof:involves": [
-      102534365,
-      102527513,
       1159283849,
       1763588229,
-      1159284021
+      1159284021,
+      1159289411,
+      102534365,
+      102527513
     ],
-    "wof:lastmodified": 1701101956,
+    "wof:lastmodified": 1701102961,
     "wof:name": "AA276 (SFO-JFK)",
     "wof:parent_id": 1763588229,
     "wof:placetype": "custom",

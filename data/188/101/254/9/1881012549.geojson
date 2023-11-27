@@ -2,10 +2,12 @@
   "id": 1881012549,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-26",
-    "date:inception_upper": "2023-11-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-26",
+    "date:cessation_lower": "2023-11-26",
+    "date:cessation_upper": "2023-11-26",
+    "date:inception_lower": "2023-11-27",
+    "date:inception_upper": "2023-11-27",
+    "edtf:cessation": "2023-11-26T14:00:49-08:00",
+    "edtf:inception": "2023-11-27T00:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2023-11-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533657,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N955AK",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69591129"
+    },
     "wof:country": "US",
     "wof:created": 1701101277,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1881012549,
     "wof:involves": [
+      1528104577,
       102527513,
       102533657,
       1159283813,
       1763588143
     ],
-    "wof:lastmodified": 1701101277,
+    "wof:lastmodified": 1701102979,
     "wof:name": "AS399 (MCO-SFO)",
     "wof:parent_id": 1763588143,
     "wof:placetype": "custom",

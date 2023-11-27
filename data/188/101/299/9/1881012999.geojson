@@ -2,10 +2,12 @@
   "id": 1881012999,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-26",
-    "date:inception_upper": "2023-11-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-26",
+    "date:cessation_lower": "2023-11-26",
+    "date:cessation_upper": "2023-11-26",
+    "date:inception_lower": "2023-11-27",
+    "date:inception_upper": "2023-11-27",
+    "edtf:cessation": "2023-11-26T15:27:07-08:00",
+    "edtf:inception": "2023-11-27T05:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614645,
     "lbl:longitude": -122.382263,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231126-A-AMX-4154",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N346NB",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +61,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KU18060202"
+    },
     "wof:country": "US",
     "wof:created": 1701101385,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -86,13 +97,14 @@
     ],
     "wof:id": 1881012999,
     "wof:involves": [
+      1159283539,
+      1159289407,
       102527513,
       102527363,
       1159284261,
-      1763588253,
-      1159283539
+      1763588253
     ],
-    "wof:lastmodified": 1701101385,
+    "wof:lastmodified": 1701102950,
     "wof:name": "DL2348 (SLC-SFO)",
     "wof:parent_id": 1763588253,
     "wof:placetype": "custom",
