@@ -2,10 +2,12 @@
   "id": 1881022989,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-27",
+    "date:cessation_upper": "2023-11-27",
     "date:inception_lower": "2023-11-27",
     "date:inception_upper": "2023-11-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-27",
+    "edtf:cessation": "2023-11-27T20:06:00Z",
+    "edtf:inception": "2023-11-27T18:18:11Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69743473"
+    },
     "wof:country": "US",
     "wof:created": 1701188317,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -92,7 +97,7 @@
       1763588213,
       1159284021
     ],
-    "wof:lastmodified": 1701188317,
+    "wof:lastmodified": 1701189290,
     "wof:name": "AA500 (SFO-DFW)",
     "wof:parent_id": 1763588213,
     "wof:placetype": "custom",

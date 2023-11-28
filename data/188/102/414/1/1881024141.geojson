@@ -2,10 +2,12 @@
   "id": 1881024141,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-27",
+    "date:cessation_upper": "2023-11-27",
     "date:inception_lower": "2023-11-27",
     "date:inception_upper": "2023-11-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-27",
+    "edtf:cessation": "2023-11-27T20:43:36Z",
+    "edtf:inception": "2023-11-27T16:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69642273"
+    },
     "wof:country": "US",
     "wof:created": 1701188593,
     "wof:geomhash": "df4d5906f2523703f9da91c779be1785",
@@ -92,7 +97,7 @@
       1763588143,
       1159283717
     ],
-    "wof:lastmodified": 1701188593,
+    "wof:lastmodified": 1701189292,
     "wof:name": "AS8 (SFO-DCA)",
     "wof:parent_id": 1763588143,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1881022091,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-27",
+    "date:cessation_upper": "2023-11-27",
     "date:inception_lower": "2023-11-27",
     "date:inception_upper": "2023-11-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-27",
+    "edtf:cessation": "2023-11-27T01:00:51-08:00",
+    "edtf:inception": "2023-11-27T15:55:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231127-A-ANA-7317",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N69804",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL50225200"
+    },
     "wof:country": "US",
     "wof:created": 1701188103,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1881022091,
     "wof:involves": [
+      1377564285,
       102527513,
       102528997,
       1159285413,
       1763588149,
       1159283875
     ],
-    "wof:lastmodified": 1701188103,
+    "wof:lastmodified": 1701189286,
     "wof:name": "UA1734 (SAN-SFO)",
     "wof:parent_id": 1763588149,
     "wof:placetype": "custom",
