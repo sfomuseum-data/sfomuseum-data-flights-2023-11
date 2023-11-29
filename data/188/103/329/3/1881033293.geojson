@@ -2,10 +2,12 @@
   "id": 1881033293,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-28",
+    "date:cessation_upper": "2023-11-28",
     "date:inception_lower": "2023-11-28",
     "date:inception_upper": "2023-11-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-28",
+    "edtf:cessation": "2023-11-28T18:17:00Z",
+    "edtf:inception": "2023-11-28T17:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.2977885,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527733,
     "sfomuseum:base_flight_id": "20231128-D-ACA-4385",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N4888U",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69743874",
+      "swim:gufi": "KO48384300"
+    },
     "wof:country": "US",
     "wof:created": 1701275326,
     "wof:geomhash": "5c4ab4afb4473393075e7e0145a9edb2",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1881033293,
     "wof:involves": [
+      1159289407,
       102527733,
       102527513,
       1159285413,
       1763588347,
       1159283597
     ],
-    "wof:lastmodified": 1701275326,
+    "wof:lastmodified": 1701275631,
     "wof:name": "UA1483 (SFO-BOI)",
     "wof:parent_id": 1763588347,
     "wof:placetype": "custom",

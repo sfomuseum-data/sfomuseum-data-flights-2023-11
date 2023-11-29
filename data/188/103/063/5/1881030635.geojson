@@ -2,10 +2,12 @@
   "id": 1881030635,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-28",
+    "date:cessation_upper": "2023-11-28",
     "date:inception_lower": "2023-11-28",
     "date:inception_upper": "2023-11-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-28",
+    "edtf:cessation": "2023-11-28T20:54:00Z",
+    "edtf:inception": "2023-11-28T16:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "icao:base_airline": "FIN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:base_flight_id": "20231128-D-FIN-4142",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N326RP",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69739109",
+      "swim:gufi": "KO53144300"
+    },
     "wof:country": "US",
     "wof:created": 1701274680,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1881030635,
     "wof:involves": [
-      102531023,
-      102527513,
       1159283849,
       1763588209,
-      1159284389
+      1159284389,
+      1528104575,
+      102531023,
+      102527513
     ],
-    "wof:lastmodified": 1701274680,
+    "wof:lastmodified": 1701275608,
     "wof:name": "AA369 (SFO-MIA)",
     "wof:parent_id": 1763588209,
     "wof:placetype": "custom",
