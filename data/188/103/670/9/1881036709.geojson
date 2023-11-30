@@ -2,10 +2,12 @@
   "id": 1881036709,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-29",
+    "date:cessation_upper": "2023-11-29",
     "date:inception_lower": "2023-11-29",
     "date:inception_upper": "2023-11-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-29",
+    "edtf:cessation": "2023-11-29T03:53:11Z",
+    "edtf:inception": "2023-11-29T03:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N8690A",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69798689"
+    },
     "wof:country": "US",
     "wof:created": 1701360807,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1881036709,
     "wof:involves": [
-      102527513,
-      102533795,
       1159285591,
-      1763588189
+      1763588189,
+      1159289871,
+      102527513,
+      102533795
     ],
-    "wof:lastmodified": 1701360807,
+    "wof:lastmodified": 1701362051,
     "wof:name": "WN1797 (LAX-SFO)",
     "wof:parent_id": 1763588189,
     "wof:placetype": "custom",

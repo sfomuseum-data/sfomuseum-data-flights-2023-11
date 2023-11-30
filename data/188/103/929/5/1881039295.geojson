@@ -2,10 +2,12 @@
   "id": 1881039295,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-29",
+    "date:cessation_upper": "2023-11-29",
     "date:inception_lower": "2023-11-29",
     "date:inception_upper": "2023-11-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-29",
+    "edtf:cessation": "2023-11-29T12:02:00Z",
+    "edtf:inception": "2023-11-29T08:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:base_flight_id": "20231129-D-AMX-3264",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +60,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69811510",
+      "swim:gufi": "KO24961400"
+    },
     "wof:country": "US",
     "wof:created": 1701361458,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -86,13 +97,14 @@
     ],
     "wof:id": 1881039295,
     "wof:involves": [
+      1159283539,
+      1377564285,
       102526927,
       102527513,
       1159284261,
-      1763588245,
-      1159283539
+      1763588245
     ],
-    "wof:lastmodified": 1701361458,
+    "wof:lastmodified": 1701362047,
     "wof:name": "DL959 (SFO-ATL)",
     "wof:parent_id": 1763588245,
     "wof:placetype": "custom",

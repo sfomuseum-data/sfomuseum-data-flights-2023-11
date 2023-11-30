@@ -2,10 +2,12 @@
   "id": 1881036733,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-29",
+    "date:cessation_upper": "2023-11-29",
     "date:inception_lower": "2023-11-29",
     "date:inception_upper": "2023-11-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-29",
+    "edtf:cessation": "2023-11-29T20:18:36Z",
+    "edtf:inception": "2023-11-29T19:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-29",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +53,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69859946"
+    },
     "wof:country": "US",
     "wof:created": 1701360814,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -86,7 +94,7 @@
       1159285591,
       1763588191
     ],
-    "wof:lastmodified": 1701360814,
+    "wof:lastmodified": 1701362042,
     "wof:name": "WN558 (SAN-SFO)",
     "wof:parent_id": 1763588191,
     "wof:placetype": "custom",

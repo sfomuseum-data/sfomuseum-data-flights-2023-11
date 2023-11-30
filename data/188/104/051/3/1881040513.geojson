@@ -2,10 +2,12 @@
   "id": 1881040513,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2023-11-29",
-    "date:inception_upper": "2023-11-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-29",
+    "date:cessation_lower": "2023-11-30",
+    "date:cessation_upper": "2023-11-30",
+    "date:inception_lower": "2023-11-30",
+    "date:inception_upper": "2023-11-30",
+    "edtf:cessation": "2023-11-30T06:20:00Z",
+    "edtf:inception": "2023-11-30T04:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:base_flight_id": "20231129-D-ACA-5615",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N17233",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69803774",
+      "swim:gufi": "KO06962500"
+    },
     "wof:country": "US",
     "wof:created": 1701361768,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1881040513,
     "wof:involves": [
-      102531189,
-      102527513,
       1159285413,
       1763588351,
-      1159283597
+      1159283597,
+      1159289871,
+      102531189,
+      102527513
     ],
-    "wof:lastmodified": 1701361768,
+    "wof:lastmodified": 1701362030,
     "wof:name": "UA2117 (SFO-DEN)",
     "wof:parent_id": 1763588351,
     "wof:placetype": "custom",

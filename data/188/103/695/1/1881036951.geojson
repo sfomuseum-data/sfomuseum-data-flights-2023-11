@@ -2,10 +2,12 @@
   "id": 1881036951,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-29",
+    "date:cessation_upper": "2023-11-29",
     "date:inception_lower": "2023-11-29",
     "date:inception_upper": "2023-11-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-29",
+    "edtf:cessation": "2023-11-29T18:01:00Z",
+    "edtf:inception": "2023-11-29T16:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231129-A-DLH-8543",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +60,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69840247",
+      "swim:gufi": "KS47504400"
+    },
     "wof:country": "US",
     "wof:created": 1701360867,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
@@ -86,13 +97,14 @@
     ],
     "wof:id": 1881036951,
     "wof:involves": [
+      1159286015,
+      1159289407,
       102527513,
       102533927,
       1159285413,
-      1763588291,
-      1159286015
+      1763588291
     ],
-    "wof:lastmodified": 1701360867,
+    "wof:lastmodified": 1701362052,
     "wof:name": "UA1403 (EUG-SFO)",
     "wof:parent_id": 1763588291,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1881040553,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-29",
+    "date:cessation_upper": "2023-11-29",
     "date:inception_lower": "2023-11-29",
     "date:inception_upper": "2023-11-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-29",
+    "edtf:cessation": "2023-11-29T23:37:21Z",
+    "edtf:inception": "2023-11-29T21:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:base_flight_id": "20231129-D-ANZ-9056",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +61,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69872462",
+      "swim:gufi": "KO63253400"
+    },
     "wof:country": "US",
     "wof:created": 1701361778,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -90,9 +102,10 @@
       102527513,
       1159285413,
       1763588327,
-      1159283697
+      1159283697,
+      1159289945
     ],
-    "wof:lastmodified": 1701361778,
+    "wof:lastmodified": 1701362030,
     "wof:name": "UA2368 (SFO-DEN)",
     "wof:parent_id": 1763588327,
     "wof:placetype": "custom",

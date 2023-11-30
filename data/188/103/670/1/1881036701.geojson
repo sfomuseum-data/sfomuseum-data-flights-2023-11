@@ -2,10 +2,12 @@
   "id": 1881036701,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-29",
+    "date:cessation_upper": "2023-11-29",
     "date:inception_lower": "2023-11-29",
     "date:inception_upper": "2023-11-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-29",
+    "edtf:cessation": "2023-11-29T23:34:38Z",
+    "edtf:inception": "2023-11-29T22:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2023-11-29",
@@ -34,7 +36,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "69880209"
+    },
     "wof:country": "US",
     "wof:created": 1701360805,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -50,7 +58,7 @@
       1159285591,
       -1
     ],
-    "wof:lastmodified": 1701360805,
+    "wof:lastmodified": 1701362051,
     "wof:name": "WN1446 (SAN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
