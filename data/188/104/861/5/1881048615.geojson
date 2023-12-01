@@ -2,10 +2,12 @@
   "id": 1881048615,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-30",
+    "date:cessation_upper": "2023-11-30",
     "date:inception_lower": "2023-11-30",
     "date:inception_upper": "2023-11-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-30",
+    "edtf:cessation": "2023-11-30T05:10:00Z",
+    "edtf:inception": "2023-11-30T03:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.1959315,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102554947,
     "sfomuseum:base_flight_id": "20231130-D-ANZ-9881",
@@ -53,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69903810",
+      "swim:gufi": "KO00718500"
+    },
     "wof:country": "US",
     "wof:created": 1701448308,
     "wof:geomhash": "a7dd599440af55c5534b52449c3164ed",
@@ -86,13 +94,14 @@
     ],
     "wof:id": 1881048615,
     "wof:involves": [
-      102554947,
       102527513,
       1159285413,
       1763588357,
-      1159283697
+      1159283697,
+      1159289871,
+      102554947
     ],
-    "wof:lastmodified": 1701448308,
+    "wof:lastmodified": 1701448520,
     "wof:name": "UA608 (SFO-YYC)",
     "wof:parent_id": 1763588357,
     "wof:placetype": "custom",

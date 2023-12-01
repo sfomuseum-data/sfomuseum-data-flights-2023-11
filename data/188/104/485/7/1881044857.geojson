@@ -2,10 +2,12 @@
   "id": 1881044857,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-30",
+    "date:cessation_upper": "2023-11-30",
     "date:inception_lower": "2023-11-30",
     "date:inception_upper": "2023-11-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-30",
+    "edtf:cessation": "2023-11-30T04:11:00Z",
+    "edtf:inception": "2023-11-30T03:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231130-A-ANZ-9274",
@@ -53,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69903978",
+      "swim:gufi": "KL01550500"
+    },
     "wof:country": "US",
     "wof:created": 1701447393,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -90,9 +98,10 @@
       102533795,
       1159285413,
       1763588315,
-      1159283697
+      1159283697,
+      1159289939
     ],
-    "wof:lastmodified": 1701447393,
+    "wof:lastmodified": 1701448511,
     "wof:name": "UA564 (LAX-SFO)",
     "wof:parent_id": 1763588315,
     "wof:placetype": "custom",

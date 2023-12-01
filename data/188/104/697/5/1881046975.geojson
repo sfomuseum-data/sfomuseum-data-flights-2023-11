@@ -2,10 +2,12 @@
   "id": 1881046975,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-30",
+    "date:cessation_upper": "2023-11-30",
     "date:inception_lower": "2023-11-30",
     "date:inception_upper": "2023-11-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-30",
+    "edtf:cessation": "2023-11-30T09:52:18Z",
+    "edtf:inception": "2023-11-30T05:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69909620"
+    },
     "wof:country": "US",
     "wof:created": 1701447905,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -92,7 +97,7 @@
       1763588251,
       1159283539
     ],
-    "wof:lastmodified": 1701447905,
+    "wof:lastmodified": 1701448527,
     "wof:name": "DL919 (SFO-ATL)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1881044677,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-30",
+    "date:cessation_upper": "2023-11-30",
     "date:inception_lower": "2023-11-30",
     "date:inception_upper": "2023-11-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-30",
+    "edtf:cessation": "2023-11-30T05:27:00Z",
+    "edtf:inception": "2023-11-30T04:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "icao:base_airline": "AAR",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231130-A-AAR-6339",
@@ -53,6 +57,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69906513"
+    },
     "wof:country": "US",
     "wof:created": 1701447350,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -86,13 +93,14 @@
     ],
     "wof:id": 1881044677,
     "wof:involves": [
+      1159289945,
       102527513,
       102527209,
       1159285413,
       1763588311,
       1159283917
     ],
-    "wof:lastmodified": 1701447350,
+    "wof:lastmodified": 1701448511,
     "wof:name": "UA2416 (LAS-SFO)",
     "wof:parent_id": 1763588311,
     "wof:placetype": "custom",

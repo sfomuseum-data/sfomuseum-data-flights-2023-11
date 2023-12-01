@@ -2,10 +2,12 @@
   "id": 1881046949,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-30",
+    "date:cessation_upper": "2023-11-30",
     "date:inception_lower": "2023-11-30",
     "date:inception_upper": "2023-11-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-30",
+    "edtf:cessation": "2023-11-30T10:07:16Z",
+    "edtf:inception": "2023-11-30T05:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69908185"
+    },
     "wof:country": "US",
     "wof:created": 1701447898,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -92,7 +97,7 @@
       1763588247,
       1159283539
     ],
-    "wof:lastmodified": 1701447898,
+    "wof:lastmodified": 1701448516,
     "wof:name": "DL742 (SFO-JFK)",
     "wof:parent_id": 1763588247,
     "wof:placetype": "custom",

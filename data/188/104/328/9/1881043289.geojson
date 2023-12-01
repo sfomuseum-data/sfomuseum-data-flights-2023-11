@@ -2,10 +2,12 @@
   "id": 1881043289,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-30",
+    "date:cessation_upper": "2023-11-30",
     "date:inception_lower": "2023-11-30",
     "date:inception_upper": "2023-11-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-30",
+    "edtf:cessation": "2023-11-30T09:54:20Z",
+    "edtf:inception": "2023-11-30T04:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20231130-A-AFR-2717",
@@ -53,6 +57,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69903926",
+      "swim:gufi": "KN07802500"
+    },
     "wof:country": "US",
     "wof:created": 1701447009,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -86,13 +94,14 @@
     ],
     "wof:id": 1881043289,
     "wof:involves": [
+      1763588251,
+      1159283627,
+      1159289939,
       102527513,
       102534365,
-      1159284261,
-      1763588251,
-      1159283627
+      1159284261
     ],
-    "wof:lastmodified": 1701447009,
+    "wof:lastmodified": 1701448506,
     "wof:name": "DL884 (JFK-SFO)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

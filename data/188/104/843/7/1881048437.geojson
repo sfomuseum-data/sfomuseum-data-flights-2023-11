@@ -2,10 +2,12 @@
   "id": 1881048437,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-30",
+    "date:cessation_upper": "2023-11-30",
     "date:inception_lower": "2023-11-30",
     "date:inception_upper": "2023-11-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-30",
+    "edtf:cessation": "2023-11-30T01:47:13Z",
+    "edtf:inception": "2023-11-30T00:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527337,
     "sfomuseum:base_flight_id": "20231130-D-ACA-4362",
@@ -53,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69895217",
+      "swim:gufi": "KO79252400"
+    },
     "wof:country": "US",
     "wof:created": 1701448265,
     "wof:geomhash": "1d9a5fa2c9575ebb155d9645f1016c57",
@@ -86,13 +94,14 @@
     ],
     "wof:id": 1881048437,
     "wof:involves": [
+      1159283597,
+      1159289407,
       102527337,
       102527513,
       1159285413,
-      1763588355,
-      1159283597
+      1763588355
     ],
-    "wof:lastmodified": 1701448265,
+    "wof:lastmodified": 1701448519,
     "wof:name": "UA372 (SFO-SBA)",
     "wof:parent_id": 1763588355,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1881045367,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-30",
+    "date:cessation_upper": "2023-11-30",
     "date:inception_lower": "2023-11-30",
     "date:inception_upper": "2023-11-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-30",
+    "edtf:cessation": "2023-11-30T10:56:20Z",
+    "edtf:inception": "2023-11-30T06:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69910720"
+    },
     "wof:country": "US",
     "wof:created": 1701447515,
     "wof:geomhash": "6d7202e034534315a50103622977ef57",
@@ -92,7 +97,7 @@
       1763588209,
       1159283717
     ],
-    "wof:lastmodified": 1701447515,
+    "wof:lastmodified": 1701448512,
     "wof:name": "AA2410 (SFO-CLT)",
     "wof:parent_id": 1763588209,
     "wof:placetype": "custom",

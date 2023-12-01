@@ -2,10 +2,12 @@
   "id": 1881048253,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2023-11-30",
+    "date:cessation_upper": "2023-11-30",
     "date:inception_lower": "2023-11-30",
     "date:inception_upper": "2023-11-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2023-11-30",
+    "edtf:cessation": "2023-11-30T05:32:10Z",
+    "edtf:inception": "2023-11-30T02:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "69902088"
+    },
     "wof:country": "US",
     "wof:created": 1701448219,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -92,7 +97,7 @@
       1763588289,
       1159283697
     ],
-    "wof:lastmodified": 1701448219,
+    "wof:lastmodified": 1701448519,
     "wof:name": "UA1702 (SFO-DFW)",
     "wof:parent_id": 1763588289,
     "wof:placetype": "custom",
