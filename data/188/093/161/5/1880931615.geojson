@@ -52,6 +52,7 @@
     "wof:geomhash": "7685368f2ace650ddf08145f6ec5f0c3",
     "wof:hierarchy": [
       {
+        "custom_id": 1880931615,
         "flight_id": 1880931615
       }
     ],
@@ -62,11 +63,13 @@
       102531811,
       1159284261
     ],
-    "wof:lastmodified": 1700152389,
+    "wof:lastmodified": 1717047009,
     "wof:name": "DL8936 (OKC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

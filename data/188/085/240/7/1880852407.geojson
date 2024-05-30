@@ -50,6 +50,7 @@
     "wof:geomhash": "d887ded7dd7ecdf1f3f44081817da1ef",
     "wof:hierarchy": [
       {
+        "custom_id": 1880852407,
         "flight_id": 1880852407
       }
     ],
@@ -60,11 +61,13 @@
       102532277,
       1763552131
     ],
-    "wof:lastmodified": 1699288432,
+    "wof:lastmodified": 1717047019,
     "wof:name": "MX600 (PVU-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

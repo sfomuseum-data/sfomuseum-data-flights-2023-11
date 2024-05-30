@@ -40,6 +40,7 @@
     "wof:geomhash": "37660c8bebf352588681fe5812e8233f",
     "wof:hierarchy": [
       {
+        "custom_id": 1880978375,
         "flight_id": 1880978375
       }
     ],
@@ -50,11 +51,13 @@
       1159285591,
       -1
     ],
-    "wof:lastmodified": 1700669575,
+    "wof:lastmodified": 1717047016,
     "wof:name": "WN1527 (SYR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

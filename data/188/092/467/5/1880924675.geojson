@@ -51,6 +51,7 @@
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
     "wof:hierarchy": [
       {
+        "custom_id": 1880924675,
         "flight_id": 1880924675
       }
     ],
@@ -61,11 +62,13 @@
       102531205,
       1159285227
     ],
-    "wof:lastmodified": 1700065989,
+    "wof:lastmodified": 1717047011,
     "wof:name": "SY8908 (MDW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

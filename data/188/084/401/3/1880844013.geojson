@@ -53,6 +53,7 @@
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
     "wof:hierarchy": [
       {
+        "custom_id": 1880844013,
         "flight_id": 1880844013
       }
     ],
@@ -63,11 +64,13 @@
       102527513,
       102531131
     ],
-    "wof:lastmodified": 1699201760,
+    "wof:lastmodified": 1717047005,
     "wof:name": "AS9806 (MSP-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

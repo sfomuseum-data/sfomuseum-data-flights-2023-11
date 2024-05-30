@@ -51,6 +51,7 @@
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
     "wof:hierarchy": [
       {
+        "custom_id": 1881025495,
         "flight_id": 1881025495
       }
     ],
@@ -61,11 +62,13 @@
       102527513,
       1159285591
     ],
-    "wof:lastmodified": 1701189281,
+    "wof:lastmodified": 1717047019,
     "wof:name": "WN8549 (SFO-LAS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

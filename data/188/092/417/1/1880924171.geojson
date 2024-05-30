@@ -45,6 +45,7 @@
     "wof:geomhash": "bc05438aa671e81973e77ec3ae7dcabf",
     "wof:hierarchy": [
       {
+        "custom_id": 1880924171,
         "flight_id": 1880924171
       }
     ],
@@ -55,11 +56,13 @@
       1159285479,
       -1
     ],
-    "wof:lastmodified": 1700066009,
+    "wof:lastmodified": 1717047010,
     "wof:name": "VN1 (HAN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

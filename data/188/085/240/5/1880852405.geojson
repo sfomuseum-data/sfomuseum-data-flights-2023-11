@@ -50,6 +50,7 @@
     "wof:geomhash": "772e5110aaf1e095142ff9199bc6ebaa",
     "wof:hierarchy": [
       {
+        "custom_id": 1880852405,
         "flight_id": 1880852405
       }
     ],
@@ -60,11 +61,13 @@
       102528187,
       1763552131
     ],
-    "wof:lastmodified": 1699288432,
+    "wof:lastmodified": 1717047019,
     "wof:name": "MX258 (CVG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

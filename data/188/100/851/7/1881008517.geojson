@@ -48,6 +48,7 @@
     "wof:geomhash": "7babf6b9ba279da48525185e0724d212",
     "wof:hierarchy": [
       {
+        "custom_id": 1881008517,
         "flight_id": 1881008517
       }
     ],
@@ -58,11 +59,13 @@
       1159283813,
       -1
     ],
-    "wof:lastmodified": 1701016480,
+    "wof:lastmodified": 1717047017,
     "wof:name": "AS9801 (SFO-SJD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

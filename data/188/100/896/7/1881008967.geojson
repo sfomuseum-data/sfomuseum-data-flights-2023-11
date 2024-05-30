@@ -40,6 +40,7 @@
     "wof:geomhash": "628a45346da0e6969e7f4ab3d55659bf",
     "wof:hierarchy": [
       {
+        "custom_id": 1881008967,
         "flight_id": 1881008967
       }
     ],
@@ -50,11 +51,13 @@
       1159284261,
       -1
     ],
-    "wof:lastmodified": 1701015904,
+    "wof:lastmodified": 1717047017,
     "wof:name": "DL8911 (SFO-SBN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

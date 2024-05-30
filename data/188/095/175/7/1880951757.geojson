@@ -40,6 +40,7 @@
     "wof:geomhash": "612d0a288820f87e8bd95a3d5fb3282e",
     "wof:hierarchy": [
       {
+        "custom_id": 1880951757,
         "flight_id": 1880951757
       }
     ],
@@ -50,11 +51,13 @@
       1159285639,
       -1
     ],
-    "wof:lastmodified": 1700325023,
+    "wof:lastmodified": 1717047010,
     "wof:name": "TG8839 (SFO-BKK)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

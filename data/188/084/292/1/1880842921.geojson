@@ -40,6 +40,7 @@
     "wof:geomhash": "2af895d7dc7816e28cbc6da81f2a802b",
     "wof:hierarchy": [
       {
+        "custom_id": 1880842921,
         "flight_id": 1880842921
       }
     ],
@@ -50,11 +51,13 @@
       1159283849,
       -1
     ],
-    "wof:lastmodified": 1699200079,
+    "wof:lastmodified": 1717047004,
     "wof:name": "AA327 (SBP-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

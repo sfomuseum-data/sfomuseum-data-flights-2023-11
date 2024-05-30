@@ -51,6 +51,7 @@
     "wof:geomhash": "c95405ad82a47404b222d64c163ad7d9",
     "wof:hierarchy": [
       {
+        "custom_id": 1880978387,
         "flight_id": 1880978387
       }
     ],
@@ -61,11 +62,13 @@
       1159289869,
       102527513
     ],
-    "wof:lastmodified": 1700670795,
+    "wof:lastmodified": 1717047016,
     "wof:name": "WN2019 (IND-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

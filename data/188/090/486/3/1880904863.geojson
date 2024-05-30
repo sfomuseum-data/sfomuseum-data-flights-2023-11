@@ -40,6 +40,7 @@
     "wof:geomhash": "8c8f659fbae3cc58419f360e0abfbe56",
     "wof:hierarchy": [
       {
+        "custom_id": 1880904863,
         "flight_id": 1880904863
       }
     ],
@@ -50,11 +51,13 @@
       1159284489,
       -1
     ],
-    "wof:lastmodified": 1699806348,
+    "wof:lastmodified": 1717047004,
     "wof:name": "HA41 (SFO-OGG)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

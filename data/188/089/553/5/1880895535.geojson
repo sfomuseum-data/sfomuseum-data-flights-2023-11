@@ -40,6 +40,7 @@
     "wof:geomhash": "6d7202e034534315a50103622977ef57",
     "wof:hierarchy": [
       {
+        "custom_id": 1880895535,
         "flight_id": 1880895535
       }
     ],
@@ -50,11 +51,13 @@
       1159283849,
       -1
     ],
-    "wof:lastmodified": 1699719468,
+    "wof:lastmodified": 1717047006,
     "wof:name": "AA410 (SFO-CLT)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

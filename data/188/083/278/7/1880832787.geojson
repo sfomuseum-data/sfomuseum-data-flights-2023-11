@@ -50,6 +50,7 @@
     "wof:geomhash": "ec4a8fe4d0e09d37ae50bf109072b003",
     "wof:hierarchy": [
       {
+        "custom_id": 1880832787,
         "flight_id": 1880832787
       }
     ],
@@ -60,11 +61,13 @@
       102551487,
       102527513
     ],
-    "wof:lastmodified": 1699029285,
+    "wof:lastmodified": 1717047003,
     "wof:name": "BR629 (SFO-TPE)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

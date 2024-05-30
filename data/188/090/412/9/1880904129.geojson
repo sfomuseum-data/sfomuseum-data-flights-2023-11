@@ -50,6 +50,7 @@
     "wof:geomhash": "9e57705c73bd73668d4b0d529a043646",
     "wof:hierarchy": [
       {
+        "custom_id": 1880904129,
         "flight_id": 1880904129
       }
     ],
@@ -60,11 +61,13 @@
       102527513,
       1159283813
     ],
-    "wof:lastmodified": 1699806772,
+    "wof:lastmodified": 1717047004,
     "wof:name": "AS9801 (SFO-SJC)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2023-11",
     "wof:superseded_by": [],
     "wof:supersedes": []
